@@ -1,36 +1,36 @@
-Reference(s),Value,DCR,Forward Voltage,Impedance,Impedence ,Power,Power Dissipation,SRF,Tolerance,Manufacturer,Part-Nr.,Datasheet
-C1,100µF 50V,,,61mΩ,mΩ,,,,,Panasonic,EEU-FM1H101B,https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1018.pdf
-C2,10µF 50V,,,,,,,,,Murata,RDEC71H106K3S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
-C3,1µF 50V,,,,,,,,,Murata,RDER71H105K2S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
-C4,100nF 50V,,,,,,,,,Murata,RDER71H104K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
-C5,10nF 50V,,,,,,,,,Murata,RDER71H103K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
-C6,1nF 50V,,,,,,,,,Murata,RDER71H102K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
-C7,10nF 50V,,,,,,,,,Murata,RDER71H103K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
-C8,180µF 35V,,,56mΩ,mΩ,,,,,Panasonic,EEU-FR1V181B,https://b2b-api.panasonic.eu/file_stream/pids/fileversion/8157
-C9,100nF 50V,,,,,,,,,Murata,RDER71H104K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
-C10,10nF 50V,,,,,,,,,Murata,RDER71H103K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
-C11,330µF 50V,,,22mΩ,mΩ,,,,,Panasonic,EEU-FR1H331LB,https://b2b-api.panasonic.eu/file_stream/pids/fileversion/8157
-C12,10µF 50V,,,,,,,,,Murata,RDEC71H106K3S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
-C13,200µF 100V,,,82mΩ,mΩ,,,,,United Chemi-Con,EGXF101ELL201MK25S,https://www.mouser.de/datasheet/2/420/United-Chemi-Con-1016798.pdf
-D1,STPS5L60,,520mV @ 5A,,,,,,,STMicroelectronics,STPS5L60,https://www.st.com/content/ccc/resource/technical/document/datasheet/57/3c/bc/f9/25/f5/43/2b/CD00002924.pdf/files/CD00002924.pdf/jcr:content/translations/en.CD00002924.pdf
-F1,5A 10.3s,,,,,,,,,Bourns Inc.,MF-R250-2-10,https://www.bourns.com/docs/Product-Datasheets/mfr.pdf
-F2,3.2A 8s,,,,,,,,,Bourns Inc.,MF-R160-2,https://www.bourns.com/docs/Product-Datasheets/mfr.pdf
-FL1,2.2mH 8A,14mΩ,,,,,,,,Würth Elektronik,7448258022,https://www.we-online.de/katalog/datasheet/7448258022.pdf
-H1,3.2mm,,,,,,,,,~,~,~
-H2,3.5mm,,,,,,,,,~,~,~
-H3,3.5mm,,,,,,,,,~,~,~
-H4,3.2mm,,,,,,,,,~,~,~
-HS1,HSS-B20-NPR-02,,,,,,5.1W @ 75°C,,,CUI Devices,HSS-B20-NPR-02,https://www.cuidevices.com/product/resource/hss-b20-npx-02.pdf
-J1,12V IN,,,,,,,,,,,
-J2,12V OUT,,,,,,,,,,,
-J3,5V OUT,,,,,,,,,,,
-L1,100µH 7A,37mΩ,,,,,,MHz,,Bourns Inc.,2312-V-RC,https://www.bourns.com/docs/Product-Datasheets/2300_series.pdf
-L2,10µH 7.9A,18mΩ,,,,,,36MHz,20 %,Coilcraft,RFS1412-103ME,https://www.mouser.de/datasheet/2/597/rfs1412-774509.pdf
-L3,100µH 7A,37mΩ,,,,,,MHz,,Bourns Inc.,2312-V-RC,https://www.bourns.com/docs/Product-Datasheets/2300_series.pdf
-L4,10µH 7.9A,18mΩ,,,,,,36MHz,20 %,Coilcraft,RFS1412-103ME,https://www.mouser.de/datasheet/2/597/rfs1412-774509.pdf
-L5,10µH 11.4A,6.8mΩ,,,,,,MHz,,Würth Elektronik,744750560100,https://www.we-online.de/katalog/datasheet/744750560100.pdf
-L6,1µH 6.9A,13.5mΩ,,,,,,195MHz,,Würth Elektronik,7447720010,https://www.we-online.com/catalog/datasheet/7447720010.pdf
-R1,100kΩ,,,,,0.5W,,,1 %,Vishay,SFR25H0001003FR500,https://www.vishay.com/docs/28722/sfr16s25.pdf
-R2,4.99kΩ,,,,,0.4W,,,1 %,Vishay,SFR2500004991FR500,https://www.vishay.com/docs/28722/sfr16s25.pdf
-R3,0Ω,,,,,0.6W,,,1 %,Vishay,MBB02070Z0000ZCT00,https://www.vishay.com/docs/28766/mbxsma.pdf
-U1,LM2679,,,,,,,,,Texas Instruments,LM2679T-5.0/NOPB,https://www.ti.com/lit/ds/symlink/lm2679.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617702681699
+Reference(s),Value,DCR,Forward Voltage,Impedance,Power,Power Dissipation,SRF,Tolerance,Manufacturer,Part-Nr.,Datasheet
+C1,100µF 50V,,,61mΩ,,,,,Panasonic,EEU-FM1H101B,https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1018.pdf
+C2,10µF 50V,,,,,,,,Murata,RDEC71H106K3S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
+C3,1µF 50V,,,,,,,,Murata,RDER71H105K2S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
+C4,100nF 50V,,,,,,,,Murata,RDER71H104K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
+C5,10nF 50V,,,,,,,,Murata,RDER71H103K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
+C6,1nF 50V,,,,,,,,Murata,RDER71H102K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
+C7,10nF 50V,,,,,,,,Murata,RDER71H103K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
+C8,180µF 35V,,,56mΩ,,,,,Panasonic,EEU-FR1V181B,https://b2b-api.panasonic.eu/file_stream/pids/fileversion/8157
+C9,100nF 50V,,,,,,,,Murata,RDER71H104K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
+C10,10nF 50V,,,,,,,,Murata,RDER71H103K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
+C11,330µF 50V,,,22mΩ,,,,,Panasonic,EEU-FR1H331LB,https://b2b-api.panasonic.eu/file_stream/pids/fileversion/8157
+C12,10µF 50V,,,,,,,,Murata,RDEC71H106K3S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
+C13,200µF 100V,,,82mΩ,,,,,United Chemi-Con,EGXF101ELL201MK25S,https://www.mouser.de/datasheet/2/420/United-Chemi-Con-1016798.pdf
+D1,STPS5L60,,520mV @ 5A,,,,,,STMicroelectronics,STPS5L60,https://www.st.com/content/ccc/resource/technical/document/datasheet/57/3c/bc/f9/25/f5/43/2b/CD00002924.pdf/files/CD00002924.pdf/jcr:content/translations/en.CD00002924.pdf
+F1,5A 10.3s,,,,,,,,Bourns Inc.,MF-R250-2-10,https://www.bourns.com/docs/Product-Datasheets/mfr.pdf
+F2,3.2A 8s,,,,,,,,Bourns Inc.,MF-R160-2,https://www.bourns.com/docs/Product-Datasheets/mfr.pdf
+FL1,2.2mH 8A,14mΩ,,,,,,,Würth Elektronik,7448258022,https://www.we-online.de/katalog/datasheet/7448258022.pdf
+H1,3.2mm,,,,,,,,~,~,~
+H2,3.5mm,,,,,,,,~,~,~
+H3,3.5mm,,,,,,,,~,~,~
+H4,3.2mm,,,,,,,,~,~,~
+HS1,HSS-B20-NPR-02,,,,,5.1W @ 75°C,,,CUI Devices,HSS-B20-NPR-02,https://www.cuidevices.com/product/resource/hss-b20-npx-02.pdf
+J1,12V IN,,,,,,,,,,
+J2,12V OUT,,,,,,,,,,
+J3,5V OUT,,,,,,,,,,
+L1,100µH 7A,37mΩ,,,,,,,Bourns Inc.,2312-V-RC,https://www.bourns.com/docs/Product-Datasheets/2300_series.pdf
+L2,10µH 7.9A,18mΩ,,,,,36MHz,20 %,Coilcraft,RFS1412-103ME,https://www.mouser.de/datasheet/2/597/rfs1412-774509.pdf
+L3,100µH 7A,37mΩ,,,,,,,Bourns Inc.,2312-V-RC,https://www.bourns.com/docs/Product-Datasheets/2300_series.pdf
+L4,10µH 7.9A,18mΩ,,,,,36MHz,20 %,Coilcraft,RFS1412-103ME,https://www.mouser.de/datasheet/2/597/rfs1412-774509.pdf
+L5,10µH 11.4A,6.8mΩ,,,,,,,Würth Elektronik,744750560100,https://www.we-online.de/katalog/datasheet/744750560100.pdf
+L6,1µH 6.9A,13.5mΩ,,,,,195MHz,,Würth Elektronik,7447720010,https://www.we-online.com/catalog/datasheet/7447720010.pdf
+R1,100kΩ,,,,0.5W,,,1 %,Vishay,SFR25H0001003FR500,https://www.vishay.com/docs/28722/sfr16s25.pdf
+R2,4.99kΩ,,,,0.4W,,,1 %,Vishay,SFR2500004991FR500,https://www.vishay.com/docs/28722/sfr16s25.pdf
+R3,0Ω,,,,0.6W,,,1 %,Vishay,MBB02070Z0000ZCT00,https://www.vishay.com/docs/28766/mbxsma.pdf
+U1,LM2679,,,,,,,,Texas Instruments,LM2679T-5.0/NOPB,https://www.ti.com/lit/ds/symlink/lm2679.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1617702681699
