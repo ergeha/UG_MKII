@@ -558,7 +558,7 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 60791571
-P 2400 7000
+P 2400 6900
 AR Path="/60791571" Ref="J3"  Part="1" 
 AR Path="/603AD409/60791571" Ref="J?"  Part="1" 
 AR Path="/603051B5/60791571" Ref="J?"  Part="1" 
@@ -566,15 +566,15 @@ AR Path="/6081FDFC/60791571" Ref="J?"  Part="1"
 AR Path="/6081FDFC/6068D87B/60791571" Ref="J?"  Part="1" 
 AR Path="/6081FDFC/60597F98/60791571" Ref="J?"  Part="1" 
 AR Path="/60599E1F/605B3C0B/60791571" Ref="J?"  Part="1" 
-F 0 "J3" H 2480 6992 50  0000 L CNN
-F 1 "5V OUT" H 2480 6901 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 2400 7000 50  0001 C CNN
-F 3 "" H 2400 7000 50  0001 C CNN
-F 4 "" H 2400 7000 50  0001 C CNN "Manufacturer"
-F 5 "" H 2400 7000 50  0001 C CNN "Part-Nr."
-F 6 "~" H 2400 7000 50  0001 C CNN "Mouser-Nr"
-	1    2400 7000
-	1    0    0    1   
+F 0 "J3" H 2480 6892 50  0000 L CNN
+F 1 "5V OUT" H 2480 6801 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 2400 6900 50  0001 C CNN
+F 3 "" H 2400 6900 50  0001 C CNN
+F 4 "" H 2400 6900 50  0001 C CNN "Manufacturer"
+F 5 "" H 2400 6900 50  0001 C CNN "Part-Nr."
+F 6 "~" H 2400 6900 50  0001 C CNN "Mouser-Nr"
+	1    2400 6900
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP7
