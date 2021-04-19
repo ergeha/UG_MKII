@@ -1,6 +1,6 @@
 Reference(s),Value,DCR,Forward Voltage,Impedance,Impedence ,Power,Power Dissipation,SRF,Tolerance,Manufacturer,Part-Nr.,Datasheet
 C1,100µF 50V,,,61mΩ,mΩ,,,,,Panasonic,EEU-FM1H101B,https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1018.pdf
-C2,10µF 50V,,,,,,,,,Murata,RDEC71H106K3S1H03A,<a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf">Datasheet<a/>
+C2,10µF 50V,,,,,,,,,Murata,RDEC71H106K3S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
 C3,1µF 50V,,,,,,,,,Murata,RDER71H105K2S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
 C4,100nF 50V,,,,,,,,,Murata,RDER71H104K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
 C5,10nF 50V,,,,,,,,,Murata,RDER71H103K0S1H03A,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf
