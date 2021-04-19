@@ -504,27 +504,6 @@ Wire Wire Line
 Wire Wire Line
 	3200 2350 3650 2350
 $Comp
-L Connector:Screw_Terminal_01x02 J2
-U 1 1 60795962
-P 4000 6900
-AR Path="/60795962" Ref="J2"  Part="1" 
-AR Path="/603AD409/60795962" Ref="J?"  Part="1" 
-AR Path="/603051B5/60795962" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/60795962" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/6068D87B/60795962" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/60597F98/60795962" Ref="J?"  Part="1" 
-AR Path="/60599E1F/605B3C0B/60795962" Ref="J?"  Part="1" 
-F 0 "J2" H 4080 6892 50  0000 L CNN
-F 1 "OUTPUT" H 4080 6801 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 4000 6900 50  0001 C CNN
-F 3 "" H 4000 6900 50  0001 C CNN
-F 4 "" H 4000 6900 50  0001 C CNN "Manufacturer"
-F 5 "" H 4000 6900 50  0001 C CNN "Part-Nr."
-F 6 "~" H 4000 6900 50  0001 C CNN "Mouser-Nr"
-	1    4000 6900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR011
 U 1 1 60796F30
 P 1550 7350
@@ -588,7 +567,7 @@ AR Path="/6081FDFC/6068D87B/60791571" Ref="J?"  Part="1"
 AR Path="/6081FDFC/60597F98/60791571" Ref="J?"  Part="1" 
 AR Path="/60599E1F/605B3C0B/60791571" Ref="J?"  Part="1" 
 F 0 "J3" H 2480 6992 50  0000 L CNN
-F 1 "OUTPUT" H 2480 6901 50  0000 L CNN
+F 1 "5V OUT" H 2480 6901 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 2400 7000 50  0001 C CNN
 F 3 "" H 2400 7000 50  0001 C CNN
 F 4 "" H 2400 7000 50  0001 C CNN "Manufacturer"
@@ -957,21 +936,6 @@ F 7 "56mΩ" H 2500 4750 39  0000 L CNN "Impedance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
-U 1 1 606CFBD5
-P 8600 2100
-F 0 "R1" H 8700 2200 50  0000 L CNN
-F 1 "100kΩ 1%" H 8700 2100 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8530 2100 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 8600 2100 50  0001 C CNN
-F 4 "Vishay" H 8600 2100 50  0001 C CNN "Manufacturer"
-F 5 "SFR25H0001003FR500" H 8600 2100 50  0001 C CNN "Part-Nr."
-F 6 "594-5053HD100K0F" H 8600 2100 50  0001 C CNN "Mouser-Nr"
-F 7 "0.5W" H 8700 2000 39  0000 L CNN "Power"
-	1    8600 2100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1 C1
 U 1 1 6063D390
 P 4750 2100
@@ -1016,27 +980,6 @@ Wire Wire Line
 	2050 2150 2050 2200
 Wire Wire Line
 	2050 2000 2050 2050
-$Comp
-L Connector:Screw_Terminal_01x02 J1
-U 1 1 606A0DCB
-P 1850 2050
-AR Path="/606A0DCB" Ref="J1"  Part="1" 
-AR Path="/603AD409/606A0DCB" Ref="J?"  Part="1" 
-AR Path="/603051B5/606A0DCB" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/606A0DCB" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/6068D87B/606A0DCB" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/60597F98/606A0DCB" Ref="J?"  Part="1" 
-AR Path="/60599E1F/605B3C0B/606A0DCB" Ref="J?"  Part="1" 
-F 0 "J1" H 1930 2042 50  0000 L CNN
-F 1 "INPUT" H 1930 1951 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1850 2050 50  0001 C CNN
-F 3 "" H 1850 2050 50  0001 C CNN
-F 4 "" H 1850 2050 50  0001 C CNN "Manufacturer"
-F 5 "" H 1850 2050 50  0001 C CNN "Part-Nr."
-F 6 "~" H 1850 2050 50  0001 C CNN "Mouser-Nr"
-	1    1850 2050
-	-1   0    0    -1  
-$EndComp
 Connection ~ 2200 2000
 Wire Wire Line
 	2200 2000 2550 2000
@@ -1077,21 +1020,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 4600 4250 4700
 $Comp
-L Device:R R2
-U 1 1 607065A9
-P 4250 4850
-F 0 "R2" H 4350 4950 50  0000 L CNN
-F 1 "4.99kΩ 1%" H 4350 4850 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4180 4850 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 4250 4850 50  0001 C CNN
-F 4 "Vishay" H 4250 4850 50  0001 C CNN "Manufacturer"
-F 5 "594-5043ED4K990F" H 4250 4850 50  0001 C CNN "Mouser-Nr"
-F 6 "SFR2500004991FR500" H 4250 4850 50  0001 C CNN "Part-Nr."
-F 7 "0.4W" H 4350 4750 39  0000 L CNN "Power"
-	1    4250 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR02
 U 1 1 60B1443E
 P 3200 2750
@@ -1129,7 +1057,7 @@ L Connector:TestPoint TP9
 U 1 1 607ADFDE
 P 5450 4800
 F 0 "TP9" H 5508 4918 50  0000 L CNN
-F 1 "SWITCH" H 5508 4827 50  0000 L CNN
+F 1 "SW" H 5508 4827 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 5650 4800 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5650 4800 50  0001 C CNN
 F 4 "Keystone Electronics" H 5450 4800 50  0001 C CNN "Manufacturer"
@@ -1161,7 +1089,7 @@ U 1 1 607EA6E7
 P 7300 4850
 F 0 "C12" H 7415 4896 50  0000 L CNN
 F 1 "10µF 50V" H 7415 4805 50  0000 L CNN
-F 2 "Capacitor_THT:C_MLCC_W5.0mm_L2.5mm_P2.50mm" H 7338 4700 50  0001 C CNN
+F 2 "Capacitor_THT:C_MLCC_W5.5mm_L4.0mm_P2.50mm" H 7338 4700 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf" H 7300 4850 50  0001 C CNN
 F 4 "Murata" H 7300 4850 50  0001 C CNN "Manufacturer"
 F 5 "81-RDER71H103K0S1H3A" H 7300 4850 50  0001 C CNN "Mouser-Nr"
@@ -1240,22 +1168,95 @@ Wire Wire Line
 	2200 2450 2200 2200
 Text GLabel 5550 7150 2    50   Input ~ 0
 -IN
+Wire Wire Line
+	5050 7150 5150 7150
+Wire Wire Line
+	5450 7150 5550 7150
+$Comp
+L Device:R R1
+U 1 1 6099B107
+P 8600 2100
+F 0 "R1" H 8670 2221 50  0000 L CNN
+F 1 "100kΩ" H 8670 2130 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8530 2100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 8600 2100 50  0001 C CNN
+F 4 "1%" H 8670 2047 39  0000 L CNN "Tolerance"
+F 5 "0.5W" H 8670 1972 39  0000 L CNN "Power"
+F 6 "Vishay" H 8600 2100 50  0001 C CNN "Manufacturer"
+F 7 "SFR25H0001003FR500" H 8600 2100 50  0001 C CNN "Part-Nr."
+	1    8600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6099F974
+P 4250 4850
+F 0 "R2" H 4320 4971 50  0000 L CNN
+F 1 "4.99kΩ" H 4320 4880 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4180 4850 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28722/sfr16s25.pdf" H 4250 4850 50  0001 C CNN
+F 4 "1%" H 4320 4797 39  0000 L CNN "Tolerance"
+F 5 "0.4W" H 4320 4722 39  0000 L CNN "Power"
+F 6 "Vishay" H 4250 4850 50  0001 C CNN "Manufacturer"
+F 7 "SFR2500004991FR500" H 4250 4850 50  0001 C CNN "Part-Nr."
+	1    4250 4850
+	1    0    0    -1  
+$EndComp
 $Comp
 L Device:R R3
-U 1 1 60899817
+U 1 1 609A09E8
 P 5300 7150
 F 0 "R3" V 5019 7150 50  0000 C CNN
 F 1 "0Ω" V 5110 7150 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5230 7150 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28766/mbxsma.pdf" H 5300 7150 50  0001 C CNN
-F 4 "Vishay" H 5300 7150 50  0001 C CNN "Manufacturer"
-F 5 "MBB02070Z0000ZCT00" H 5300 7150 50  0001 C CNN "Part-Nr."
-F 6 "0.6W" V 5193 7150 39  0000 C CNN "Power"
+F 4 "1%" V 5117 7150 39  0001 C CNN "Tolerance"
+F 5 "0.6W" V 5193 7150 39  0000 C CNN "Power"
+F 6 "Vishay" H 5300 7150 50  0001 C CNN "Manufacturer"
+F 7 "MBB02070Z0000ZCT00" H 5300 7150 50  0001 C CNN "Part-Nr."
 	1    5300 7150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5050 7150 5150 7150
-Wire Wire Line
-	5450 7150 5550 7150
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 606A0DCB
+P 1850 2050
+AR Path="/606A0DCB" Ref="J1"  Part="1" 
+AR Path="/603AD409/606A0DCB" Ref="J?"  Part="1" 
+AR Path="/603051B5/606A0DCB" Ref="J?"  Part="1" 
+AR Path="/6081FDFC/606A0DCB" Ref="J?"  Part="1" 
+AR Path="/6081FDFC/6068D87B/606A0DCB" Ref="J?"  Part="1" 
+AR Path="/6081FDFC/60597F98/606A0DCB" Ref="J?"  Part="1" 
+AR Path="/60599E1F/605B3C0B/606A0DCB" Ref="J?"  Part="1" 
+F 0 "J1" H 1930 2042 50  0000 L CNN
+F 1 "12V IN" H 1930 1951 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1850 2050 50  0001 C CNN
+F 3 "" H 1850 2050 50  0001 C CNN
+F 4 "" H 1850 2050 50  0001 C CNN "Manufacturer"
+F 5 "" H 1850 2050 50  0001 C CNN "Part-Nr."
+F 6 "~" H 1850 2050 50  0001 C CNN "Mouser-Nr"
+	1    1850 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 60795962
+P 4000 6900
+AR Path="/60795962" Ref="J2"  Part="1" 
+AR Path="/603AD409/60795962" Ref="J?"  Part="1" 
+AR Path="/603051B5/60795962" Ref="J?"  Part="1" 
+AR Path="/6081FDFC/60795962" Ref="J?"  Part="1" 
+AR Path="/6081FDFC/6068D87B/60795962" Ref="J?"  Part="1" 
+AR Path="/6081FDFC/60597F98/60795962" Ref="J?"  Part="1" 
+AR Path="/60599E1F/605B3C0B/60795962" Ref="J?"  Part="1" 
+F 0 "J2" H 4080 6892 50  0000 L CNN
+F 1 "12V OUT" H 4080 6801 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 4000 6900 50  0001 C CNN
+F 3 "" H 4000 6900 50  0001 C CNN
+F 4 "" H 4000 6900 50  0001 C CNN "Manufacturer"
+F 5 "" H 4000 6900 50  0001 C CNN "Part-Nr."
+F 6 "~" H 4000 6900 50  0001 C CNN "Mouser-Nr"
+	1    4000 6900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
