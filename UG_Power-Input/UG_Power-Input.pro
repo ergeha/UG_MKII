@@ -1,4 +1,4 @@
-update=2021 April 19, Monday 17:54:32
+update=2021 April 19, Monday 18:56:57
 version=1
 last_client=kicad
 [general]
@@ -247,7 +247,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=/Users/rgh/Dropbox/UG/KiCad/RGH.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
