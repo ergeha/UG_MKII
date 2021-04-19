@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Urban Garden MKII – Power Supply"
+Date "2021-04-19"
+Rev "1.04"
+Comp "u/ergeha"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -251,10 +251,10 @@ Wire Wire Line
 	5650 5000 5650 5150
 Connection ~ 5650 5150
 $Comp
-L power:GND #PWR06
+L power:GND #PWR05
 U 1 1 6076C406
 P 2400 5500
-F 0 "#PWR06" H 2400 5250 50  0001 C CNN
+F 0 "#PWR05" H 2400 5250 50  0001 C CNN
 F 1 "GND" H 2405 5327 50  0000 C CNN
 F 2 "" H 2400 5500 50  0001 C CNN
 F 3 "" H 2400 5500 50  0001 C CNN
@@ -311,10 +311,10 @@ Wire Wire Line
 Wire Wire Line
 	8050 2350 8600 2350
 $Comp
-L power:GND #PWR03
+L power:GND #PWR02
 U 1 1 6058E89A
 P 9650 2750
-F 0 "#PWR03" H 9650 2500 50  0001 C CNN
+F 0 "#PWR02" H 9650 2500 50  0001 C CNN
 F 1 "GND" H 9655 2577 50  0000 C CNN
 F 2 "" H 9650 2750 50  0001 C CNN
 F 3 "" H 9650 2750 50  0001 C CNN
@@ -397,10 +397,10 @@ Wire Wire Line
 Wire Wire Line
 	5000 4000 6500 4000
 $Comp
-L power:GND #PWR08
+L power:GND #PWR07
 U 1 1 607AAED6
 P 9350 5500
-F 0 "#PWR08" H 9350 5250 50  0001 C CNN
+F 0 "#PWR07" H 9350 5250 50  0001 C CNN
 F 1 "GND" H 9355 5327 50  0000 C CNN
 F 2 "" H 9350 5500 50  0001 C CNN
 F 3 "" H 9350 5500 50  0001 C CNN
@@ -423,10 +423,10 @@ $EndComp
 Wire Wire Line
 	10050 4150 10000 4150
 $Comp
-L power:+5V #PWR05
+L power:+5V #PWR04
 U 1 1 607BE18B
 P 10000 4050
-F 0 "#PWR05" H 10000 3900 50  0001 C CNN
+F 0 "#PWR04" H 10000 3900 50  0001 C CNN
 F 1 "+5V" H 10015 4223 50  0000 C CNN
 F 2 "" H 10000 4050 50  0001 C CNN
 F 3 "" H 10000 4050 50  0001 C CNN
@@ -504,10 +504,10 @@ Wire Wire Line
 Wire Wire Line
 	3200 2350 3650 2350
 $Comp
-L power:GND #PWR011
+L power:GND #PWR010
 U 1 1 60796F30
 P 1550 7350
-F 0 "#PWR011" H 1550 7100 50  0001 C CNN
+F 0 "#PWR010" H 1550 7100 50  0001 C CNN
 F 1 "GND" H 1555 7177 50  0000 C CNN
 F 2 "" H 1550 7350 50  0001 C CNN
 F 3 "" H 1550 7350 50  0001 C CNN
@@ -515,10 +515,10 @@ F 3 "" H 1550 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L power:GND #PWR011
 U 1 1 607974A6
 P 3150 7350
-F 0 "#PWR012" H 3150 7100 50  0001 C CNN
+F 0 "#PWR011" H 3150 7100 50  0001 C CNN
 F 1 "GND" H 3155 7177 50  0000 C CNN
 F 2 "" H 3150 7350 50  0001 C CNN
 F 3 "" H 3150 7350 50  0001 C CNN
@@ -543,10 +543,10 @@ Wire Wire Line
 Wire Wire Line
 	10000 4050 10000 4150
 $Comp
-L power:+5V #PWR09
+L power:+5V #PWR08
 U 1 1 60764E20
 P 1550 6550
-F 0 "#PWR09" H 1550 6400 50  0001 C CNN
+F 0 "#PWR08" H 1550 6400 50  0001 C CNN
 F 1 "+5V" H 1565 6723 50  0000 C CNN
 F 2 "" H 1550 6550 50  0001 C CNN
 F 3 "" H 1550 6550 50  0001 C CNN
@@ -581,7 +581,7 @@ L Connector:TestPoint TP7
 U 1 1 607449A6
 P 7500 4150
 F 0 "TP7" H 7558 4268 50  0000 L CNN
-F 1 "BUCK" H 7558 4177 50  0000 L CNN
+F 1 "BCK" H 7558 4177 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 7700 4150 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 7700 4150 50  0001 C CNN
 F 4 "Keystone Electronics" H 7500 4150 50  0001 C CNN "Manufacturer"
@@ -637,19 +637,6 @@ F 5 "5118" H 2200 2650 50  0001 C CNN "Part-Nr."
 $EndComp
 Wire Wire Line
 	2200 2650 2200 2450
-$Comp
-L Connector:TestPoint TP2
-U 1 1 6078C439
-P 3200 1600
-F 0 "TP2" H 3258 1718 50  0000 L CNN
-F 1 "CMC" H 3258 1627 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 3400 1600 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 3400 1600 50  0001 C CNN
-F 4 "Keystone Electronics" H 3200 1600 50  0001 C CNN "Manufacturer"
-F 5 "5000" H 3200 1600 50  0001 C CNN "Part-Nr."
-	1    3200 1600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3200 1600 3200 1850
 Connection ~ 3200 1850
@@ -677,13 +664,13 @@ L Connector:TestPoint TP5
 U 1 1 6083B9EE
 P 3200 2650
 F 0 "TP5" H 3258 2768 50  0000 L CNN
-F 1 "GND" H 3258 2677 50  0000 L CNN
+F 1 "-CMC" H 3258 2677 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 3400 2650 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 3400 2650 50  0001 C CNN
 F 4 "Keystone Electronics" H 3200 2650 50  0001 C CNN "Manufacturer"
 F 5 "5001" H 3200 2650 50  0001 C CNN "Part-Nr."
 	1    3200 2650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:TestPoint TP6
@@ -729,43 +716,43 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 608F15A4
-P 6100 6450
-F 0 "H2" H 6200 6496 50  0000 L CNN
-F 1 "3.5mm" H 6200 6405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 6100 6450 50  0001 C CNN
-F 3 "~" H 6100 6450 50  0001 C CNN
-F 4 "~" H 6100 6450 50  0001 C CNN "Manufacturer"
-F 5 "~" H 6100 6450 50  0001 C CNN "Mouser-Nr"
-F 6 "~" H 6100 6450 50  0001 C CNN "Part-Nr."
-	1    6100 6450
+P 6050 6600
+F 0 "H2" H 6150 6646 50  0000 L CNN
+F 1 "3.5mm" H 6150 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 6050 6600 50  0001 C CNN
+F 3 "~" H 6050 6600 50  0001 C CNN
+F 4 "~" H 6050 6600 50  0001 C CNN "Manufacturer"
+F 5 "~" H 6050 6600 50  0001 C CNN "Mouser-Nr"
+F 6 "~" H 6050 6600 50  0001 C CNN "Part-Nr."
+	1    6050 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 608F176C
-P 6100 7150
-F 0 "H4" H 6200 7196 50  0000 L CNN
-F 1 "3.2mm" H 6200 7105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6100 7150 50  0001 C CNN
-F 3 "~" H 6100 7150 50  0001 C CNN
-F 4 "~" H 6100 7150 50  0001 C CNN "Manufacturer"
-F 5 "~" H 6100 7150 50  0001 C CNN "Mouser-Nr"
-F 6 "~" H 6100 7150 50  0001 C CNN "Part-Nr."
-	1    6100 7150
+P 6050 7250
+F 0 "H4" H 6150 7296 50  0000 L CNN
+F 1 "3.2mm" H 6150 7205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6050 7250 50  0001 C CNN
+F 3 "~" H 6050 7250 50  0001 C CNN
+F 4 "~" H 6050 7250 50  0001 C CNN "Manufacturer"
+F 5 "~" H 6050 7250 50  0001 C CNN "Mouser-Nr"
+F 6 "~" H 6050 7250 50  0001 C CNN "Part-Nr."
+	1    6050 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60927205
-P 5000 6450
-F 0 "H1" H 5100 6496 50  0000 L CNN
-F 1 "3.2mm" H 5100 6405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 5000 6450 50  0001 C CNN
-F 3 "~" H 5000 6450 50  0001 C CNN
-F 4 "~" H 5000 6450 50  0001 C CNN "Manufacturer"
-F 5 "~" H 5000 6450 50  0001 C CNN "Mouser-Nr"
-F 6 "~" H 5000 6450 50  0001 C CNN "Part-Nr."
-	1    5000 6450
+P 4900 6600
+F 0 "H1" H 5000 6646 50  0000 L CNN
+F 1 "3.2mm" H 5000 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 4900 6600 50  0001 C CNN
+F 3 "~" H 4900 6600 50  0001 C CNN
+F 4 "~" H 4900 6600 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4900 6600 50  0001 C CNN "Mouser-Nr"
+F 6 "~" H 4900 6600 50  0001 C CNN "Part-Nr."
+	1    4900 6600
 	1    0    0    -1  
 $EndComp
 Text Notes 1350 6200 0    79   ~ 16
@@ -839,14 +826,14 @@ $Comp
 L Device:L L5
 U 1 1 608266C2
 P 6200 4600
-F 0 "L5" H 6200 4940 50  0000 C CNN
-F 1 "10µH 10A" H 6200 4849 50  0000 C CNN
+F 0 "L5" H 6200 4900 50  0000 C CNN
+F 1 "10µH 11.4A" H 6200 4800 50  0000 C CNN
 F 2 "Inductor_THT:L_Radial_D14.8mm_P12.00mm_Würth_WE-FAMI" V 6200 4600 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/744711010.pdf" V 6200 4600 50  0001 C CNN
-F 4 "8.8mΩ" H 6200 4766 39  0000 C CNN "DCR"
-F 5 "43MHz" H 6200 4691 39  0000 C CNN "SRF"
+F 3 "https://www.we-online.de/katalog/datasheet/744750560100.pdf" V 6200 4600 50  0001 C CNN
+F 4 "6.8mΩ" H 6200 4700 39  0000 C CNN "DCR"
+F 5 "MHz" H 6200 4691 39  0001 C CNN "SRF"
 F 6 "Würth Elektronik" H 6200 4600 50  0001 C CNN "Manufacturer"
-F 7 "744711010" H 6200 4600 50  0001 C CNN "Part-Nr."
+F 7 "744750560100" H 6200 4600 50  0001 C CNN "Part-Nr."
 	1    6200 4600
 	1    0    0    -1  
 $EndComp
@@ -986,17 +973,17 @@ Wire Wire Line
 Wire Wire Line
 	2050 2200 2200 2200
 $Comp
-L power:+12V #PWR04
+L power:+12V #PWR03
 U 1 1 609F9DA4
 P 2400 4050
-AR Path="/609F9DA4" Ref="#PWR04"  Part="1" 
+AR Path="/609F9DA4" Ref="#PWR03"  Part="1" 
 AR Path="/603AD409/609F9DA4" Ref="#PWR?"  Part="1" 
 AR Path="/603051B5/609F9DA4" Ref="#PWR?"  Part="1" 
 AR Path="/6081FDFC/609F9DA4" Ref="#PWR?"  Part="1" 
 AR Path="/6081FDFC/6068D87B/609F9DA4" Ref="#PWR?"  Part="1" 
 AR Path="/6081FDFC/60597F98/609F9DA4" Ref="#PWR?"  Part="1" 
 AR Path="/60599E1F/605B3C0B/609F9DA4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR04" H 2400 3900 50  0001 C CNN
+F 0 "#PWR03" H 2400 3900 50  0001 C CNN
 F 1 "+12V" H 2415 4223 50  0000 C CNN
 F 2 "" H 2400 4050 50  0001 C CNN
 F 3 "" H 2400 4050 50  0001 C CNN
@@ -1019,31 +1006,20 @@ Wire Wire Line
 	4250 5000 4250 5150
 Wire Wire Line
 	4250 4600 4250 4700
-$Comp
-L power:GND #PWR02
-U 1 1 60B1443E
-P 3200 2750
-F 0 "#PWR02" H 3200 2500 50  0001 C CNN
-F 1 "GND" H 3205 2577 50  0000 C CNN
-F 2 "" H 3200 2750 50  0001 C CNN
-F 3 "" H 3200 2750 50  0001 C CNN
-	1    3200 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3200 2650 3200 2750
+	3200 2650 3200 2350
 $Comp
-L power:+12V #PWR010
+L power:+12V #PWR09
 U 1 1 60B24565
 P 3150 6550
-AR Path="/60B24565" Ref="#PWR010"  Part="1" 
+AR Path="/60B24565" Ref="#PWR09"  Part="1" 
 AR Path="/603AD409/60B24565" Ref="#PWR?"  Part="1" 
 AR Path="/603051B5/60B24565" Ref="#PWR?"  Part="1" 
 AR Path="/6081FDFC/60B24565" Ref="#PWR?"  Part="1" 
 AR Path="/6081FDFC/6068D87B/60B24565" Ref="#PWR?"  Part="1" 
 AR Path="/6081FDFC/60597F98/60B24565" Ref="#PWR?"  Part="1" 
 AR Path="/60599E1F/605B3C0B/60B24565" Ref="#PWR?"  Part="1" 
-F 0 "#PWR010" H 3150 6400 50  0001 C CNN
+F 0 "#PWR09" H 3150 6400 50  0001 C CNN
 F 1 "+12V" H 3165 6723 50  0000 C CNN
 F 2 "" H 3150 6550 50  0001 C CNN
 F 3 "" H 3150 6550 50  0001 C CNN
@@ -1071,10 +1047,10 @@ Connection ~ 5450 4600
 Wire Wire Line
 	5450 4600 5650 4600
 $Comp
-L power:GND #PWR07
+L power:GND #PWR06
 U 1 1 607C6EFD
 P 7500 5500
-F 0 "#PWR07" H 7500 5250 50  0001 C CNN
+F 0 "#PWR06" H 7500 5250 50  0001 C CNN
 F 1 "GND" H 7505 5327 50  0000 C CNN
 F 2 "" H 7500 5500 50  0001 C CNN
 F 3 "" H 7500 5500 50  0001 C CNN
@@ -1093,7 +1069,7 @@ F 2 "Capacitor_THT:C_MLCC_W5.5mm_L4.0mm_P2.50mm" H 7338 4700 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf" H 7300 4850 50  0001 C CNN
 F 4 "Murata" H 7300 4850 50  0001 C CNN "Manufacturer"
 F 5 "81-RDER71H103K0S1H3A" H 7300 4850 50  0001 C CNN "Mouser-Nr"
-F 6 "RDER71H103K0S1H03A" H 7300 4850 50  0001 C CNN "Part-Nr."
+F 6 "RDEC71H106K3S1H03A" H 7300 4850 50  0001 C CNN "Part-Nr."
 	1    7300 4850
 	1    0    0    -1  
 $EndComp
@@ -1126,6 +1102,8 @@ F 3 "https://www.mouser.de/datasheet/2/597/rfs1412-774509.pdf" V 4350 1850 50  0
 F 4 "18mΩ" H 4350 2016 39  0000 C CNN "DCR"
 F 5 "36MHz" H 4350 1941 39  0000 C CNN "SRF"
 F 6 "Coilcraft" H 4350 1850 50  0001 C CNN "Manufacturer"
+F 7 "RFS1412-103ME" H 4350 1850 50  0001 C CNN "Part-Nr."
+F 8 "20%" H 4350 1850 50  0001 C CNN "Tolerance"
 	1    4350 1850
 	1    0    0    -1  
 $EndComp
@@ -1140,20 +1118,22 @@ F 3 "https://www.mouser.de/datasheet/2/597/rfs1412-774509.pdf" V 4350 2350 50  0
 F 4 "18mΩ" H 4350 2516 39  0000 C CNN "DCR"
 F 5 "36MHz" H 4350 2441 39  0000 C CNN "SRF"
 F 6 "Coilcraft" H 4350 2350 50  0001 C CNN "Manufacturer"
+F 7 "RFS1412-103ME" H 4350 2350 50  0001 C CNN "Part-Nr."
+F 8 "20%" H 4350 2350 50  0001 C CNN "Tolerance"
 	1    4350 2350
 	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 607E883A
-P 4950 7150
-F 0 "H3" V 5200 7200 50  0000 C CNN
-F 1 "3.5mm" V 5100 7200 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 4950 7150 50  0001 C CNN
-F 3 "~" H 4950 7150 50  0001 C CNN
-F 4 "~" H 4950 7150 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4950 7150 50  0001 C CNN "Part-Nr."
-	1    4950 7150
+P 4950 7250
+F 0 "H3" V 5200 7300 50  0000 C CNN
+F 1 "3.5mm" V 5100 7300 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 4950 7250 50  0001 C CNN
+F 3 "~" H 4950 7250 50  0001 C CNN
+F 4 "~" H 4950 7250 50  0001 C CNN "Manufacturer"
+F 5 "~" H 4950 7250 50  0001 C CNN "Part-Nr."
+	1    4950 7250
 	0    -1   -1   0   
 $EndComp
 Connection ~ 2200 2200
@@ -1166,12 +1146,12 @@ Wire Wire Line
 Connection ~ 2200 2450
 Wire Wire Line
 	2200 2450 2200 2200
-Text GLabel 5550 7150 2    50   Input ~ 0
+Text GLabel 5550 7250 2    50   Input ~ 0
 -IN
 Wire Wire Line
-	5050 7150 5150 7150
+	5050 7250 5150 7250
 Wire Wire Line
-	5450 7150 5550 7150
+	5450 7250 5550 7250
 $Comp
 L Device:R R1
 U 1 1 6099B107
@@ -1205,16 +1185,16 @@ $EndComp
 $Comp
 L Device:R R3
 U 1 1 609A09E8
-P 5300 7150
-F 0 "R3" V 5019 7150 50  0000 C CNN
-F 1 "0Ω" V 5110 7150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5230 7150 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/28766/mbxsma.pdf" H 5300 7150 50  0001 C CNN
-F 4 "1%" V 5117 7150 39  0001 C CNN "Tolerance"
-F 5 "0.6W" V 5193 7150 39  0000 C CNN "Power"
-F 6 "Vishay" H 5300 7150 50  0001 C CNN "Manufacturer"
-F 7 "MBB02070Z0000ZCT00" H 5300 7150 50  0001 C CNN "Part-Nr."
-	1    5300 7150
+P 5300 7250
+F 0 "R3" V 5019 7250 50  0000 C CNN
+F 1 "0Ω" V 5110 7250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5230 7250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28766/mbxsma.pdf" H 5300 7250 50  0001 C CNN
+F 4 "1%" V 5117 7250 39  0001 C CNN "Tolerance"
+F 5 "0.6W" V 5193 7250 39  0000 C CNN "Power"
+F 6 "Vishay" H 5300 7250 50  0001 C CNN "Manufacturer"
+F 7 "MBB02070Z0000ZCT00" H 5300 7250 50  0001 C CNN "Part-Nr."
+	1    5300 7250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1259,4 +1239,18 @@ F 6 "~" H 4000 6900 50  0001 C CNN "Mouser-Nr"
 	1    4000 6900
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 6078C439
+P 3200 1600
+F 0 "TP2" H 3258 1718 50  0000 L CNN
+F 1 "+CMC" H 3258 1627 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 3400 1600 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 3400 1600 50  0001 C CNN
+F 4 "Keystone Electronics" H 3200 1600 50  0001 C CNN "Manufacturer"
+F 5 "5000" H 3200 1600 50  0001 C CNN "Part-Nr."
+	1    3200 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 2350
 $EndSCHEMATC
