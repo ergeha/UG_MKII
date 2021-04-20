@@ -1,7 +1,7 @@
-# Urban Garden – MKII
+# Power Supply with EMI-Filter
+(REV_1)
 
-PART ONE: 
-EMI-Filter for 12VDC switch mode power supplies (max. 7A), combined with a 5 Volt buck-regulator. 
+Multi-staged EMI-filter for switch mode power supplies. The board outputs 12VDC and 5VDC. 
 
 
 3D-View:
