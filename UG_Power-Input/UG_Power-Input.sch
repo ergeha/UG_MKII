@@ -159,22 +159,22 @@ Connection ~ 9650 1550
 Wire Wire Line
 	9650 1550 9650 1350
 Wire Wire Line
-	3200 2000 2950 2000
+	3200 2000 2900 2000
 Wire Wire Line
 	3200 2350 3200 2200
 $Comp
 L Device:EMI_Filter_LL_1423 FL1
 U 1 1 6063362E
-P 2750 2100
-F 0 "FL1" H 2750 1700 50  0000 C CNN
-F 1 "2.2mH 8A" H 2750 1800 50  0000 C CNN
-F 2 "Inductor_THT:L_CommonMode_Wuerth_WE-CMB-XL" H 2750 1850 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/7448258022.pdf" V 2750 2140 50  0001 C CNN
-F 4 "Würth Elektronik" H 2750 2100 50  0001 C CNN "Manufacturer"
-F 5 "7448258022" H 2750 2100 50  0001 C CNN "Part-Nr."
-F 6 "710-7448258022" H 2750 2100 50  0001 C CNN "Mouser-Nr"
-F 7 "14mΩ" H 2750 1900 39  0000 C CNN "DCR"
-	1    2750 2100
+P 2700 2100
+F 0 "FL1" H 2700 1700 50  0000 C CNN
+F 1 "2.2mH 8A" H 2700 1800 50  0000 C CNN
+F 2 "Inductor_THT:L_CommonMode_Wuerth_WE-CMB-XL" H 2700 1850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/7448258022.pdf" V 2700 2140 50  0001 C CNN
+F 4 "Würth Elektronik" H 2700 2100 50  0001 C CNN "Manufacturer"
+F 5 "7448258022" H 2700 2100 50  0001 C CNN "Part-Nr."
+F 6 "710-7448258022" H 2700 2100 50  0001 C CNN "Mouser-Nr"
+F 7 "14mΩ" H 2700 1900 39  0000 C CNN "DCR"
+	1    2700 2100
 	1    0    0    1   
 $EndComp
 $Comp
@@ -329,8 +329,8 @@ Wire Wire Line
 Text GLabel 7600 4600 2    50   Output ~ 0
 BUCK.OUT
 Wire Notes Line
-	2750 2250 2750 2950
-Text Notes 2800 1050 0    50   Italic 0
+	2700 2250 2700 2950
+Text Notes 2750 1050 0    50   Italic 0
 Ground-Plane \nseparation \non PCB
 Text Notes 1350 3900 0    50   ~ 0
 Input: 11.8 - 13.8V\nInput(I): 2.24A \nOutput: 5V (max. 5A)\nƒ(sw): 260kHz
@@ -484,7 +484,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 5000 9350 5400
 Wire Notes Line
-	2750 800  2750 1600
+	2700 800  2700 1600
 Text Notes 8400 5100 0    50   ~ 0
 LC-Filter: \nƒ(cout) = 11.3MHz
 Text Notes 8300 3650 0    50   ~ 0
@@ -586,19 +586,6 @@ Wire Wire Line
 	9650 4600 10000 4600
 Wire Wire Line
 	7500 4150 7500 4600
-$Comp
-L Connector:TestPoint TP1
-U 1 1 60769BA8
-P 2200 1600
-F 0 "TP1" H 2258 1718 50  0000 L CNN
-F 1 "+IN" H 2258 1627 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 2400 1600 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 2400 1600 50  0001 C CNN
-F 4 "Keystone Electronics" H 2200 1600 50  0001 C CNN "Manufacturer"
-F 5 "5000" H 2200 1600 50  0001 C CNN "Part-Nr."
-	1    2200 1600
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:TestPoint TP4
 U 1 1 6077D20B
@@ -906,9 +893,7 @@ Connection ~ 9350 5400
 Wire Wire Line
 	9350 5400 9350 5500
 Wire Wire Line
-	3200 2200 2950 2200
-Wire Wire Line
-	2200 1600 2200 1950
+	3200 2200 2900 2200
 $Comp
 L Device:Polyfuse_Small F1
 U 1 1 6097C040
@@ -925,7 +910,7 @@ $EndComp
 Wire Wire Line
 	2200 1950 2200 2000
 Wire Wire Line
-	2200 2000 2550 2000
+	2200 2000 2500 2000
 Wire Wire Line
 	2200 2250 2200 2200
 $Comp
@@ -1093,7 +1078,7 @@ F 5 "~" H 5200 7250 50  0001 C CNN "Part-Nr."
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2200 2200 2550 2200
+	2200 2200 2500 2200
 Text GLabel 2050 2450 0    50   Input ~ 0
 -IN
 Wire Wire Line
@@ -1222,7 +1207,6 @@ F 6 "1330180000" H 2150 6800 50  0001 C CNN "Part-Nr."
 	1    2150 6800
 	1    0    0    -1  
 $EndComp
-Connection ~ 2200 1950
 Connection ~ 2200 2250
 Wire Wire Line
 	1850 2250 1950 2250
@@ -1233,8 +1217,6 @@ Wire Wire Line
 Wire Wire Line
 	1950 2050 1950 1950
 Connection ~ 1950 1950
-Wire Wire Line
-	1950 1950 2200 1950
 Wire Wire Line
 	1850 2150 1950 2150
 Wire Wire Line
@@ -1274,4 +1256,22 @@ Wire Wire Line
 Connection ~ 2100 6800
 Wire Wire Line
 	2100 6800 2150 6800
+Connection ~ 2200 1950
+Wire Wire Line
+	1950 1950 2200 1950
+Wire Wire Line
+	2200 1600 2200 1950
+$Comp
+L Connector:TestPoint TP1
+U 1 1 60769BA8
+P 2200 1600
+F 0 "TP1" H 2258 1718 50  0000 L CNN
+F 1 "+IN" H 2258 1627 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 2400 1600 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 2400 1600 50  0001 C CNN
+F 4 "Keystone Electronics" H 2200 1600 50  0001 C CNN "Manufacturer"
+F 5 "5000" H 2200 1600 50  0001 C CNN "Part-Nr."
+	1    2200 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

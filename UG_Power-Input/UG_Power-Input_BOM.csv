@@ -21,9 +21,9 @@ H2,3.5mm,~,~,~,~,~,~,~,~,~,~
 H3,3.5mm,~,~,~,~,~,~,~,~,~,~
 H4,3.2mm,~,~,~,~,~,~,~,~,~,~
 HS1,HSS-B20-NPR-02,~,~,~,~,5.1W @ 75°C,~,~,CUI Devices,HSS-B20-NPR-02,https://www.cuidevices.com/product/resource/hss-b20-npx-02.pdf
-J1,12V IN,~,~,~,~,~,~,~,~,~,~
-J2,12V OUT,~,~,~,~,~,~,~,~,~,~
-J3,5V OUT,~,~,~,~,~,~,~,~,~,~
+J1,12V IN,~,~,~,~,~,~,~,Weidemüller,1330180000,https://media.digikey.com/pdf/Data%20Sheets/Weidmuller%20PDFs/1330180000.pdf
+J2,12V OUT,~,~,~,~,~,~,~,Weidemüller,1330180000,https://media.digikey.com/pdf/Data%20Sheets/Weidmuller%20PDFs/1330180000.pdf
+J3,5V OUT,~,~,~,~,~,~,~,Weidemüller,1330180000,https://media.digikey.com/pdf/Data%20Sheets/Weidmuller%20PDFs/1330180000.pdf
 L1,100µH 7A,37mΩ,~,~,~,~,~,15 %,Bourns Inc.,2312-V-RC,https://www.bourns.com/docs/Product-Datasheets/2300_series.pdf
 L2,10µH 7.9A,18mΩ,~,~,~,~,36MHz,20 %,Coilcraft,RFS1412-103ME,https://www.mouser.de/datasheet/2/597/rfs1412-774509.pdf
 L3,100µH 7A,37mΩ,~,~,~,~,~,15 %,Bourns Inc.,2312-V-RC,https://www.bourns.com/docs/Product-Datasheets/2300_series.pdf
