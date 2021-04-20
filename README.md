@@ -1,5 +1,4 @@
 # Power Supply with EMI-Filter
-(REV_1)
 
 Multi-staged EMI-filter for switch mode power supplies. The board outputs 12VDC and 5VDC. 
 
