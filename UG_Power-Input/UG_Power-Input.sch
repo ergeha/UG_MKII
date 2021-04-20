@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Urban Garden MKII – Power Supply"
-Date "2021-04-19"
+Date "2021-04-20"
 Rev "1.04"
 Comp "u/ergeha"
-Comment1 ""
+Comment1 "r/PrintedCircuitBoard"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -682,7 +682,7 @@ L Mechanical:MountingHole H2
 U 1 1 608F15A4
 P 6300 6600
 F 0 "H2" H 6400 6646 50  0000 L CNN
-F 1 "3.5mm" H 6400 6555 50  0000 L CNN
+F 1 "ø3.5" H 6400 6555 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.5mm" H 6300 6600 50  0001 C CNN
 F 3 "~" H 6300 6600 50  0001 C CNN
 F 4 "~" H 6300 6600 50  0001 C CNN "Manufacturer"
@@ -696,7 +696,7 @@ L Mechanical:MountingHole H4
 U 1 1 608F176C
 P 6300 7250
 F 0 "H4" H 6400 7296 50  0000 L CNN
-F 1 "3.2mm" H 6400 7205 50  0000 L CNN
+F 1 "ø3.2" H 6400 7205 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 6300 7250 50  0001 C CNN
 F 3 "~" H 6300 7250 50  0001 C CNN
 F 4 "~" H 6300 7250 50  0001 C CNN "Manufacturer"
@@ -1069,7 +1069,7 @@ L Mechanical:MountingHole_Pad H3
 U 1 1 607E883A
 P 5200 7250
 F 0 "H3" V 5450 7300 50  0000 C CNN
-F 1 "3.5mm" V 5350 7300 50  0000 C CNN
+F 1 "ø3.5" V 5350 7300 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 5200 7250 50  0001 C CNN
 F 3 "~" H 5200 7250 50  0001 C CNN
 F 4 "~" H 5200 7250 50  0001 C CNN "Manufacturer"
@@ -1156,7 +1156,7 @@ L Mechanical:MountingHole H1
 U 1 1 60927205
 P 5150 6600
 F 0 "H1" H 5250 6646 50  0000 L CNN
-F 1 "3.2mm" H 5250 6555 50  0000 L CNN
+F 1 "ø3.2" H 5250 6555 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 5150 6600 50  0001 C CNN
 F 3 "~" H 5150 6600 50  0001 C CNN
 F 4 "~" H 5150 6600 50  0001 C CNN "Manufacturer"
