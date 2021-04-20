@@ -506,12 +506,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR010
 U 1 1 60796F30
-P 1550 7350
-F 0 "#PWR010" H 1550 7100 50  0001 C CNN
-F 1 "GND" H 1555 7177 50  0000 C CNN
-F 2 "" H 1550 7350 50  0001 C CNN
-F 3 "" H 1550 7350 50  0001 C CNN
-	1    1550 7350
+P 1500 7350
+F 0 "#PWR010" H 1500 7100 50  0001 C CNN
+F 1 "GND" H 1505 7177 50  0000 C CNN
+F 2 "" H 1500 7350 50  0001 C CNN
+F 3 "" H 1500 7350 50  0001 C CNN
+	1    1500 7350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -526,17 +526,15 @@ F 3 "" H 3150 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 6900 3400 6900
+	3150 6800 3400 6800
 Wire Wire Line
-	3150 7350 3150 7000
+	3150 7350 3150 7100
 Wire Wire Line
-	3150 7000 3800 7000
+	3150 7100 3750 7100
 Wire Wire Line
-	2200 7000 1550 7000
+	1500 7100 1500 7350
 Wire Wire Line
-	1550 7000 1550 7350
-Wire Wire Line
-	1550 6900 1800 6900
+	1500 6800 1750 6800
 Connection ~ 10000 4150
 Wire Wire Line
 	10000 4150 10000 4600
@@ -545,37 +543,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR08
 U 1 1 60764E20
-P 1550 6550
-F 0 "#PWR08" H 1550 6400 50  0001 C CNN
-F 1 "+5V" H 1565 6723 50  0000 C CNN
-F 2 "" H 1550 6550 50  0001 C CNN
-F 3 "" H 1550 6550 50  0001 C CNN
-	1    1550 6550
+P 1500 6550
+F 0 "#PWR08" H 1500 6400 50  0001 C CNN
+F 1 "+5V" H 1515 6723 50  0000 C CNN
+F 2 "" H 1500 6550 50  0001 C CNN
+F 3 "" H 1500 6550 50  0001 C CNN
+	1    1500 6550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 6550 1550 6900
-$Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 60791571
-P 2400 6900
-AR Path="/60791571" Ref="J3"  Part="1" 
-AR Path="/603AD409/60791571" Ref="J?"  Part="1" 
-AR Path="/603051B5/60791571" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/60791571" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/6068D87B/60791571" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/60597F98/60791571" Ref="J?"  Part="1" 
-AR Path="/60599E1F/605B3C0B/60791571" Ref="J?"  Part="1" 
-F 0 "J3" H 2480 6892 50  0000 L CNN
-F 1 "5V OUT" H 2480 6801 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 2400 6900 50  0001 C CNN
-F 3 "" H 2400 6900 50  0001 C CNN
-F 4 "" H 2400 6900 50  0001 C CNN "Manufacturer"
-F 5 "" H 2400 6900 50  0001 C CNN "Part-Nr."
-F 6 "~" H 2400 6900 50  0001 C CNN "Mouser-Nr"
-	1    2400 6900
-	1    0    0    -1  
-$EndComp
+	1500 6550 1500 6800
 $Comp
 L Connector:TestPoint TP7
 U 1 1 607449A6
@@ -716,65 +693,51 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 608F15A4
-P 6050 6600
-F 0 "H2" H 6150 6646 50  0000 L CNN
-F 1 "3.5mm" H 6150 6555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 6050 6600 50  0001 C CNN
-F 3 "~" H 6050 6600 50  0001 C CNN
-F 4 "~" H 6050 6600 50  0001 C CNN "Manufacturer"
-F 5 "~" H 6050 6600 50  0001 C CNN "Mouser-Nr"
-F 6 "~" H 6050 6600 50  0001 C CNN "Part-Nr."
-	1    6050 6600
+P 6300 6600
+F 0 "H2" H 6400 6646 50  0000 L CNN
+F 1 "3.5mm" H 6400 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 6300 6600 50  0001 C CNN
+F 3 "~" H 6300 6600 50  0001 C CNN
+F 4 "~" H 6300 6600 50  0001 C CNN "Manufacturer"
+F 5 "~" H 6300 6600 50  0001 C CNN "Mouser-Nr"
+F 6 "~" H 6300 6600 50  0001 C CNN "Part-Nr."
+	1    6300 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 608F176C
-P 6050 7250
-F 0 "H4" H 6150 7296 50  0000 L CNN
-F 1 "3.2mm" H 6150 7205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6050 7250 50  0001 C CNN
-F 3 "~" H 6050 7250 50  0001 C CNN
-F 4 "~" H 6050 7250 50  0001 C CNN "Manufacturer"
-F 5 "~" H 6050 7250 50  0001 C CNN "Mouser-Nr"
-F 6 "~" H 6050 7250 50  0001 C CNN "Part-Nr."
-	1    6050 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 60927205
-P 4900 6600
-F 0 "H1" H 5000 6646 50  0000 L CNN
-F 1 "3.2mm" H 5000 6555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 4900 6600 50  0001 C CNN
-F 3 "~" H 4900 6600 50  0001 C CNN
-F 4 "~" H 4900 6600 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4900 6600 50  0001 C CNN "Mouser-Nr"
-F 6 "~" H 4900 6600 50  0001 C CNN "Part-Nr."
-	1    4900 6600
+P 6300 7250
+F 0 "H4" H 6400 7296 50  0000 L CNN
+F 1 "3.2mm" H 6400 7205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6300 7250 50  0001 C CNN
+F 3 "~" H 6300 7250 50  0001 C CNN
+F 4 "~" H 6300 7250 50  0001 C CNN "Manufacturer"
+F 5 "~" H 6300 7250 50  0001 C CNN "Mouser-Nr"
+F 6 "~" H 6300 7250 50  0001 C CNN "Part-Nr."
+	1    6300 7250
 	1    0    0    -1  
 $EndComp
 Text Notes 1350 6200 0    79   ~ 16
 Output Connectors
-Text Notes 4750 6200 0    79   ~ 16
+Text Notes 5000 6200 0    79   ~ 16
 Mounting Holes
 Wire Notes Line
-	1250 5950 4500 5950
+	1250 5950 4750 5950
 Wire Notes Line
-	4500 5950 4500 7700
+	4750 5950 4750 7700
 Wire Notes Line
-	4500 7700 1250 7700
+	4750 7700 1250 7700
 Wire Notes Line
 	1250 7700 1250 5950
 Wire Notes Line
-	4600 5950 4600 7700
+	4850 5950 4850 7700
 Wire Notes Line
-	4600 7700 6600 7700
+	4850 7700 6850 7700
 Wire Notes Line
-	6600 7700 6600 5950
+	6850 7700 6850 5950
 Wire Notes Line
-	6600 5950 4600 5950
+	6850 5950 4850 5950
 $Comp
 L Mechanical:Heatsink HS1
 U 1 1 60A83541
@@ -795,18 +758,18 @@ Wire Wire Line
 $Comp
 L Device:Polyfuse_Small F2
 U 1 1 60B29995
-P 3500 6900
-F 0 "F2" V 3295 6900 50  0000 C CNN
-F 1 "3.2A 8s" V 3386 6900 50  0000 C CNN
-F 2 "Fuse:Fuse_Bourns_MF-RHT100" H 3550 6700 50  0001 L CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/mfr.pdf" H 3500 6900 50  0001 C CNN
-F 4 "Bourns Inc." H 3500 6900 50  0001 C CNN "Manufacturer"
-F 5 "MF-R160-2" H 3500 6900 50  0001 C CNN "Part-Nr."
-	1    3500 6900
+P 3500 6800
+F 0 "F2" V 3295 6800 50  0000 C CNN
+F 1 "3.2A 8s" V 3386 6800 50  0000 C CNN
+F 2 "Fuse:Fuse_Bourns_MF-RHT100" H 3550 6600 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/mfr.pdf" H 3500 6800 50  0001 C CNN
+F 4 "Bourns Inc." H 3500 6800 50  0001 C CNN "Manufacturer"
+F 5 "MF-R160-2" H 3500 6800 50  0001 C CNN "Part-Nr."
+	1    3500 6800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3600 6900 3800 6900
+	3600 6800 3750 6800
 $Comp
 L Device:L L1
 U 1 1 608250D9
@@ -945,33 +908,26 @@ Wire Wire Line
 Wire Wire Line
 	3200 2200 2950 2200
 Wire Wire Line
-	2200 1600 2200 2000
+	2200 1600 2200 1950
 $Comp
 L Device:Polyfuse_Small F1
 U 1 1 6097C040
-P 1900 6900
-F 0 "F1" V 1695 6900 50  0000 C CNN
-F 1 "5A 10.3s" V 1786 6900 50  0000 C CNN
-F 2 "Fuse:Fuse_Bourns_MF-RHT200" H 1950 6700 50  0001 L CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/mfr.pdf" H 1900 6900 50  0001 C CNN
-F 4 "Bourns Inc." H 1900 6900 50  0001 C CNN "Manufacturer"
-F 5 "MF-R250-2-10" H 1900 6900 50  0001 C CNN "Part-Nr."
-	1    1900 6900
+P 1850 6800
+F 0 "F1" V 1645 6800 50  0000 C CNN
+F 1 "5A 10.3s" V 1736 6800 50  0000 C CNN
+F 2 "Fuse:Fuse_Bourns_MF-RHT200" H 1900 6600 50  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/mfr.pdf" H 1850 6800 50  0001 C CNN
+F 4 "Bourns Inc." H 1850 6800 50  0001 C CNN "Manufacturer"
+F 5 "MF-R250-2-10" H 1850 6800 50  0001 C CNN "Part-Nr."
+	1    1850 6800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2000 6900 2200 6900
-Wire Wire Line
-	2050 2000 2200 2000
-Wire Wire Line
-	2050 2150 2050 2200
-Wire Wire Line
-	2050 2000 2050 2050
-Connection ~ 2200 2000
+	2200 1950 2200 2000
 Wire Wire Line
 	2200 2000 2550 2000
 Wire Wire Line
-	2050 2200 2200 2200
+	2200 2250 2200 2200
 $Comp
 L power:+12V #PWR03
 U 1 1 609F9DA4
@@ -1027,7 +983,7 @@ F 3 "" H 3150 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 6550 3150 6900
+	3150 6550 3150 6800
 $Comp
 L Connector:TestPoint TP9
 U 1 1 607ADFDE
@@ -1126,17 +1082,16 @@ $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 607E883A
-P 4950 7250
-F 0 "H3" V 5200 7300 50  0000 C CNN
-F 1 "3.5mm" V 5100 7300 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 4950 7250 50  0001 C CNN
-F 3 "~" H 4950 7250 50  0001 C CNN
-F 4 "~" H 4950 7250 50  0001 C CNN "Manufacturer"
-F 5 "~" H 4950 7250 50  0001 C CNN "Part-Nr."
-	1    4950 7250
+P 5200 7250
+F 0 "H3" V 5450 7300 50  0000 C CNN
+F 1 "3.5mm" V 5350 7300 50  0000 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 5200 7250 50  0001 C CNN
+F 3 "~" H 5200 7250 50  0001 C CNN
+F 4 "~" H 5200 7250 50  0001 C CNN "Manufacturer"
+F 5 "~" H 5200 7250 50  0001 C CNN "Part-Nr."
+	1    5200 7250
 	0    -1   -1   0   
 $EndComp
-Connection ~ 2200 2200
 Wire Wire Line
 	2200 2200 2550 2200
 Text GLabel 2050 2450 0    50   Input ~ 0
@@ -1145,13 +1100,13 @@ Wire Wire Line
 	2050 2450 2200 2450
 Connection ~ 2200 2450
 Wire Wire Line
-	2200 2450 2200 2200
-Text GLabel 5550 7250 2    50   Input ~ 0
+	2200 2450 2200 2250
+Text GLabel 5800 7250 2    50   Input ~ 0
 -IN
 Wire Wire Line
-	5050 7250 5150 7250
+	5300 7250 5400 7250
 Wire Wire Line
-	5450 7250 5550 7250
+	5700 7250 5800 7250
 $Comp
 L Device:R R1
 U 1 1 6099B107
@@ -1185,59 +1140,17 @@ $EndComp
 $Comp
 L Device:R R3
 U 1 1 609A09E8
-P 5300 7250
-F 0 "R3" V 5019 7250 50  0000 C CNN
-F 1 "0Ω" V 5110 7250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5230 7250 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/28766/mbxsma.pdf" H 5300 7250 50  0001 C CNN
-F 4 "1%" V 5117 7250 39  0001 C CNN "Tolerance"
-F 5 "0.6W" V 5193 7250 39  0000 C CNN "Power"
-F 6 "Vishay" H 5300 7250 50  0001 C CNN "Manufacturer"
-F 7 "MBB02070Z0000ZCT00" H 5300 7250 50  0001 C CNN "Part-Nr."
-	1    5300 7250
+P 5550 7250
+F 0 "R3" V 5269 7250 50  0000 C CNN
+F 1 "0Ω" V 5360 7250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5480 7250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28766/mbxsma.pdf" H 5550 7250 50  0001 C CNN
+F 4 "1%" V 5367 7250 39  0001 C CNN "Tolerance"
+F 5 "0.6W" V 5443 7250 39  0000 C CNN "Power"
+F 6 "Vishay" H 5550 7250 50  0001 C CNN "Manufacturer"
+F 7 "MBB02070Z0000ZCT00" H 5550 7250 50  0001 C CNN "Part-Nr."
+	1    5550 7250
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J1
-U 1 1 606A0DCB
-P 1850 2050
-AR Path="/606A0DCB" Ref="J1"  Part="1" 
-AR Path="/603AD409/606A0DCB" Ref="J?"  Part="1" 
-AR Path="/603051B5/606A0DCB" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/606A0DCB" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/6068D87B/606A0DCB" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/60597F98/606A0DCB" Ref="J?"  Part="1" 
-AR Path="/60599E1F/605B3C0B/606A0DCB" Ref="J?"  Part="1" 
-F 0 "J1" H 1930 2042 50  0000 L CNN
-F 1 "12V IN" H 1930 1951 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1850 2050 50  0001 C CNN
-F 3 "" H 1850 2050 50  0001 C CNN
-F 4 "" H 1850 2050 50  0001 C CNN "Manufacturer"
-F 5 "" H 1850 2050 50  0001 C CNN "Part-Nr."
-F 6 "~" H 1850 2050 50  0001 C CNN "Mouser-Nr"
-	1    1850 2050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J2
-U 1 1 60795962
-P 4000 6900
-AR Path="/60795962" Ref="J2"  Part="1" 
-AR Path="/603AD409/60795962" Ref="J?"  Part="1" 
-AR Path="/603051B5/60795962" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/60795962" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/6068D87B/60795962" Ref="J?"  Part="1" 
-AR Path="/6081FDFC/60597F98/60795962" Ref="J?"  Part="1" 
-AR Path="/60599E1F/605B3C0B/60795962" Ref="J?"  Part="1" 
-F 0 "J2" H 4080 6892 50  0000 L CNN
-F 1 "12V OUT" H 4080 6801 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 4000 6900 50  0001 C CNN
-F 3 "" H 4000 6900 50  0001 C CNN
-F 4 "" H 4000 6900 50  0001 C CNN "Manufacturer"
-F 5 "" H 4000 6900 50  0001 C CNN "Part-Nr."
-F 6 "~" H 4000 6900 50  0001 C CNN "Mouser-Nr"
-	1    4000 6900
-	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP2
@@ -1253,4 +1166,112 @@ F 5 "5000" H 3200 1600 50  0001 C CNN "Part-Nr."
 	1    0    0    -1  
 $EndComp
 Connection ~ 3200 2350
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60927205
+P 5150 6600
+F 0 "H1" H 5250 6646 50  0000 L CNN
+F 1 "3.2mm" H 5250 6555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5150 6600 50  0001 C CNN
+F 3 "~" H 5150 6600 50  0001 C CNN
+F 4 "~" H 5150 6600 50  0001 C CNN "Manufacturer"
+F 5 "~" H 5150 6600 50  0001 C CNN "Mouser-Nr"
+F 6 "~" H 5150 6600 50  0001 C CNN "Part-Nr."
+	1    5150 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L External~Components:TerminalBlock_Weidemüller_LMF-1330180000_1x02_P5.00mm_Vertical J1
+U 1 1 60809E91
+P 1850 1950
+F 0 "J1" H 2092 2289 50  0000 C CNN
+F 1 "12V IN" H 2092 2198 50  0000 C CNN
+F 2 "TerminalBlock_Weidemueller:TerminalBlock_Weidemueller_LMF-1330180000_1x02_P5.00mm_Vertical" H 2250 1450 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Weidmuller%20PDFs/1330180000.pdf" H 1850 1950 50  0001 C CNN
+F 4 "7A MAX" H 2092 2115 39  0000 C CNN "Rating"
+F 5 "Weidemüller" H 1850 1950 50  0001 C CNN "Manufacturer"
+F 6 "1330180000" H 1850 1950 50  0001 C CNN "Part-Nr."
+	1    1850 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L External~Components:TerminalBlock_Weidemüller_LMF-1330180000_1x02_P5.00mm_Vertical J3
+U 1 1 608115B7
+P 3800 6800
+F 0 "J3" H 4328 6733 50  0000 L CNN
+F 1 "12V OUT" H 4328 6642 50  0000 L CNN
+F 2 "TerminalBlock_Weidemueller:TerminalBlock_Weidemueller_LMF-1330180000_1x02_P5.00mm_Vertical" H 4200 6300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Weidmuller%20PDFs/1330180000.pdf" H 3800 6800 50  0001 C CNN
+F 4 "3.2A MAX" H 4328 6559 39  0000 L CNN "Rating"
+F 5 "Weidemüller" H 3800 6800 50  0001 C CNN "Manufacturer"
+F 6 "1330180000" H 3800 6800 50  0001 C CNN "Part-Nr."
+	1    3800 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L External~Components:TerminalBlock_Weidemüller_LMF-1330180000_1x02_P5.00mm_Vertical J2
+U 1 1 60812DA0
+P 2150 6800
+F 0 "J2" H 2678 6733 50  0000 L CNN
+F 1 "5V OUT" H 2678 6642 50  0000 L CNN
+F 2 "TerminalBlock_Weidemueller:TerminalBlock_Weidemueller_LMF-1330180000_1x02_P5.00mm_Vertical" H 2550 6300 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Weidmuller%20PDFs/1330180000.pdf" H 2150 6800 50  0001 C CNN
+F 4 "5A MAX" H 2678 6559 39  0000 L CNN "Rating"
+F 5 "Weidemüller" H 2150 6800 50  0001 C CNN "Manufacturer"
+F 6 "1330180000" H 2150 6800 50  0001 C CNN "Part-Nr."
+	1    2150 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2200 1950
+Connection ~ 2200 2250
+Wire Wire Line
+	1850 2250 1950 2250
+Wire Wire Line
+	1850 1950 1950 1950
+Wire Wire Line
+	1850 2050 1950 2050
+Wire Wire Line
+	1950 2050 1950 1950
+Connection ~ 1950 1950
+Wire Wire Line
+	1950 1950 2200 1950
+Wire Wire Line
+	1850 2150 1950 2150
+Wire Wire Line
+	1950 2150 1950 2250
+Connection ~ 1950 2250
+Wire Wire Line
+	1950 2250 2200 2250
+Wire Wire Line
+	1950 6800 2100 6800
+Wire Wire Line
+	1500 7100 2100 7100
+Wire Wire Line
+	3800 6900 3750 6900
+Wire Wire Line
+	3750 6900 3750 6800
+Connection ~ 3750 6800
+Wire Wire Line
+	3750 6800 3800 6800
+Wire Wire Line
+	3800 7000 3750 7000
+Wire Wire Line
+	3750 7000 3750 7100
+Connection ~ 3750 7100
+Wire Wire Line
+	3750 7100 3800 7100
+Wire Wire Line
+	2150 7000 2100 7000
+Wire Wire Line
+	2100 7000 2100 7100
+Connection ~ 2100 7100
+Wire Wire Line
+	2100 7100 2150 7100
+Wire Wire Line
+	2150 6900 2100 6900
+Wire Wire Line
+	2100 6900 2100 6800
+Connection ~ 2100 6800
+Wire Wire Line
+	2100 6800 2150 6800
 $EndSCHEMATC
