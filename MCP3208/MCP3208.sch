@@ -1,0 +1,1062 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Urban Garden MKII – ADC Circuit"
+Date "2021-05-03"
+Rev "V0.0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:MCP6021 U2
+U 1 1 608E0B9C
+P 7150 2600
+F 0 "U2" H 7350 2900 50  0000 L CNN
+F 1 "MCP6021" H 7350 2800 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7150 2600 50  0001 C CNN
+F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/20001685E.pdf" H 7150 2600 50  0001 C CNN
+F 4 "~" H 7150 2600 50  0001 C CNN "Impedence "
+F 5 "~" H 7150 2600 50  0001 C CNN "Power"
+F 6 "~" H 7150 2600 50  0001 C CNN "Rating"
+F 7 "~" H 7150 2600 50  0001 C CNN "Tolerance"
+F 8 "Microchip Technology" H 7150 2600 50  0001 C CNN "Manufacturer"
+F 9 "MCP6021-I/SN" H 7150 2600 50  0001 C CNN "MPN"
+	1    7150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 608E350A
+P 2850 1900
+F 0 "C1" H 2965 2021 50  0000 L CNN
+F 1 "0.1µF" H 2965 1930 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x4.5" H 3080 1832 50  0001 C CNN
+F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-uwp.pdf" H 3080 1832 50  0001 C CNN
+F 4 "50V" H 2965 1847 39  0000 L CNN "Rating"
+F 5 "~" H 2965 1772 39  0000 L CNN "Impedence "
+F 6 "UWP1H0R1MCL1GB" H 2850 1900 50  0001 C CNN "MPN"
+F 7 "Nichicon" H 2850 1900 50  0001 C CNN "Manufacturer"
+F 8 "±20%" H 2850 1900 50  0001 C CNN "Tolerance"
+F 9 "~" H 2850 1900 50  0001 C CNN "Power"
+	1    2850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 608E46C9
+P 3350 1900
+F 0 "C2" H 3465 1983 50  0000 L CNN
+F 1 "1000pF" H 3465 1892 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3388 1750 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 3350 1900 50  0001 C CNN
+F 4 "16V" H 3465 1809 39  0000 L CNN "Rating"
+F 5 "C0805C102K4RACTU" H 3350 1900 50  0001 C CNN "MPN"
+F 6 "KEMET" H 3350 1900 50  0001 C CNN "Manufacturer"
+F 7 "±10%" H 3350 1900 50  0001 C CNN "Tolerance"
+F 8 "~" H 3350 1900 50  0001 C CNN "Impedence "
+F 9 "~" H 3350 1900 50  0001 C CNN "Power"
+	1    3350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C3
+U 1 1 608E4F79
+P 3900 1900
+F 0 "C3" H 4015 2021 50  0000 L CNN
+F 1 "22µF" H 4015 1930 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.3" H 4130 1832 50  0001 C CNN
+F 3 "https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf" H 4130 1832 50  0001 C CNN
+F 4 "16V" H 4015 1847 39  0000 L CNN "Rating"
+F 5 "~" H 4015 1772 39  0000 L CNN "Impedence "
+F 6 "UWT1C220MCL1GB" H 3900 1900 50  0001 C CNN "MPN"
+F 7 "Nichicon" H 3900 1900 50  0001 C CNN "Manufacturer"
+F 8 "±20%" H 3900 1900 50  0001 C CNN "Tolerance"
+F 9 "~" H 3900 1900 50  0001 C CNN "Power"
+	1    3900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead FB1
+U 1 1 608E5AA4
+P 4200 1500
+F 0 "FB1" V 3926 1500 50  0000 C CNN
+F 1 "21Ω @ 1MHz" V 4017 1500 50  0000 C CNN
+F 2 "Ferrite_THT:FIL_NFZ32BW210HN11L" V 4130 1500 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796734717982/ENFJ0003.pdf" H 4200 1500 50  0001 C CNN
+F 4 "NFZ32BW210HN11L" H 4200 1500 50  0001 C CNN "MPN"
+F 5 "Murata Electronics" H 4200 1500 50  0001 C CNN "Manufacturer"
+F 6 "~" H 4200 1500 50  0001 C CNN "Impedence "
+F 7 "~" H 4200 1500 50  0001 C CNN "Power"
+F 8 "~" H 4200 1500 50  0001 C CNN "Rating"
+F 9 "~" H 4200 1500 50  0001 C CNN "Tolerance"
+	1    4200 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 608E6B84
+P 4500 2800
+F 0 "C4" H 4615 2883 50  0000 L CNN
+F 1 "0.1µF" H 4615 2792 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4538 2650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 4500 2800 50  0001 C CNN
+F 4 "16V" H 4615 2709 39  0000 L CNN "Rating"
+F 5 "C0805C104K4RACTU" H 4500 2800 50  0001 C CNN "MPN"
+F 6 "KEMET" H 4500 2800 50  0001 C CNN "Manufacturer"
+F 7 "±10%" H 4500 2800 50  0001 C CNN "Tolerance"
+F 8 "~" H 4500 2800 50  0001 C CNN "Impedence "
+F 9 "~" H 4500 2800 50  0001 C CNN "Power"
+	1    4500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 608E777F
+P 6000 2500
+F 0 "R1" V 5643 2500 50  0000 C CNN
+F 1 "10kΩ" V 5734 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5930 2500 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 6000 2500 50  0001 C CNN
+F 4 "±1%" V 5817 2500 39  0000 C CNN "Tolerance"
+F 5 "0.4W" V 5892 2500 39  0000 C CNN "Power"
+F 6 "RCS080510K0FKEA" H 6000 2500 50  0001 C CNN "MPN"
+F 7 "Vishay Dale" H 6000 2500 50  0001 C CNN "Manufacturer"
+F 8 "~" H 6000 2500 50  0001 C CNN "Impedence "
+F 9 "~" H 6000 2500 50  0001 C CNN "Rating"
+	1    6000 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 608E882E
+P 5600 2800
+F 0 "C5" H 5715 2883 50  0000 L CNN
+F 1 "10µF" H 5715 2792 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5638 2650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 5600 2800 50  0001 C CNN
+F 4 "10V" H 5715 2709 39  0000 L CNN "Rating"
+F 5 "C0805C106K8RACTU" H 5600 2800 50  0001 C CNN "MPN"
+F 6 "KEMET" H 5600 2800 50  0001 C CNN "Manufacturer"
+F 7 "±10%" H 5600 2800 50  0001 C CNN "Tolerance"
+F 8 "~" H 5600 2800 50  0001 C CNN "Impedence "
+F 9 "~" H 5600 2800 50  0001 C CNN "Power"
+	1    5600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 608E8F3F
+P 6400 2800
+F 0 "C6" H 6285 2717 50  0000 R CNN
+F 1 "1µF" H 6285 2808 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6438 2650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 6400 2800 50  0001 C CNN
+F 4 "16V" H 6285 2891 39  0000 R CNN "Rating"
+F 5 "C0805C105J4RAC7025" H 6400 2800 50  0001 C CNN "MPN"
+F 6 "KEMET" H 6400 2800 50  0001 C CNN "Manufacturer"
+F 7 "±5%" H 6400 2800 50  0001 C CNN "Tolerance"
+F 8 "~" H 6400 2800 50  0001 C CNN "Impedence "
+F 9 "~" H 6400 2800 50  0001 C CNN "Power"
+	1    6400 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 608EAB62
+P 8200 3000
+F 0 "C8" H 8085 2917 50  0000 R CNN
+F 1 "1µF" H 8085 3008 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8238 2850 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 8200 3000 50  0001 C CNN
+F 4 "16V" H 8085 3091 39  0000 R CNN "Rating"
+F 5 "C0805C105J4RAC7025" H 8200 3000 50  0001 C CNN "MPN"
+F 6 "KEMET" H 8200 3000 50  0001 C CNN "Manufacturer"
+F 7 "±5%" H 8200 3000 50  0001 C CNN "Tolerance"
+F 8 "~" H 8200 3000 50  0001 C CNN "Impedence "
+F 9 "~" H 8200 3000 50  0001 C CNN "Power"
+	1    8200 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 608EB207
+P 7800 1800
+F 0 "C7" H 7685 1717 50  0000 R CNN
+F 1 "1µF" H 7685 1808 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7838 1650 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 7800 1800 50  0001 C CNN
+F 4 "16V" H 7685 1891 39  0000 R CNN "Rating"
+F 5 "C0805C105J4RAC7025" H 7800 1800 50  0001 C CNN "MPN"
+F 6 "KEMET" H 7800 1800 50  0001 C CNN "Manufacturer"
+F 7 "±5%" H 7800 1800 50  0001 C CNN "Tolerance"
+F 8 "~" H 7800 1800 50  0001 C CNN "Impedence "
+F 9 "~" H 7800 1800 50  0001 C CNN "Power"
+	1    7800 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 608F77AE
+P 7150 3100
+F 0 "#PWR05" H 7150 2850 50  0001 C CNN
+F 1 "GND" H 7155 2927 50  0000 C CNN
+F 2 "" H 7150 3100 50  0001 C CNN
+F 3 "" H 7150 3100 50  0001 C CNN
+	1    7150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 608F7BD5
+P 9850 2100
+F 0 "#PWR09" H 9850 1850 50  0001 C CNN
+F 1 "GND" H 9855 1927 50  0000 C CNN
+F 2 "" H 9850 2100 50  0001 C CNN
+F 3 "" H 9850 2100 50  0001 C CNN
+	1    9850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 608F81CA
+P 5300 4200
+F 0 "#PWR04" H 5300 3950 50  0001 C CNN
+F 1 "GND" H 5305 4027 50  0000 C CNN
+F 2 "" H 5300 4200 50  0001 C CNN
+F 3 "" H 5300 4200 50  0001 C CNN
+	1    5300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 608F8A71
+P 2500 1000
+F 0 "#PWR01" H 2500 850 50  0001 C CNN
+F 1 "+5V" H 2515 1173 50  0000 C CNN
+F 2 "" H 2500 1000 50  0001 C CNN
+F 3 "" H 2500 1000 50  0001 C CNN
+	1    2500 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2900 7150 3100
+$Comp
+L power:GND #PWR06
+U 1 1 608F6FED
+P 7800 2100
+F 0 "#PWR06" H 7800 1850 50  0001 C CNN
+F 1 "GND" H 7805 1927 50  0000 C CNN
+F 2 "" H 7800 2100 50  0001 C CNN
+F 3 "" H 7800 2100 50  0001 C CNN
+	1    7800 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1000 2500 1150
+Wire Wire Line
+	2400 1500 2500 1500
+Wire Wire Line
+	5400 2500 5600 2500
+Wire Wire Line
+	6150 2500 6400 2500
+Wire Wire Line
+	7550 2600 7750 2600
+NoConn ~ 7250 2300
+Wire Wire Line
+	2850 1500 2850 1750
+Wire Wire Line
+	8200 3600 8200 3150
+Wire Wire Line
+	2850 2050 2850 3600
+Wire Wire Line
+	4500 1500 4500 1900
+Wire Wire Line
+	4500 2950 4500 3600
+Wire Wire Line
+	5000 2800 5000 3600
+Connection ~ 5000 3600
+Wire Wire Line
+	5000 3600 5300 3600
+Wire Wire Line
+	5600 2500 5600 2650
+Wire Wire Line
+	5600 2950 5600 3600
+Connection ~ 5600 2500
+Wire Wire Line
+	5600 2500 5850 2500
+Connection ~ 5600 3600
+Wire Wire Line
+	5600 3600 6400 3600
+Wire Wire Line
+	6400 2500 6400 2650
+Wire Wire Line
+	6400 2950 6400 3600
+Wire Wire Line
+	7150 1500 7150 2300
+Wire Wire Line
+	3900 1500 3900 1750
+Wire Wire Line
+	3900 2050 3900 3600
+Wire Wire Line
+	3350 1500 3350 1750
+Wire Wire Line
+	3350 2050 3350 3600
+Wire Wire Line
+	7800 1500 7800 1650
+Wire Wire Line
+	7800 1950 7800 2100
+Wire Wire Line
+	5300 3600 5300 4050
+Connection ~ 5300 3600
+Wire Wire Line
+	5300 3600 5600 3600
+Wire Wire Line
+	9400 1500 9850 1500
+Wire Wire Line
+	9850 1500 9850 1800
+Wire Wire Line
+	9400 1800 9850 1800
+Connection ~ 9850 1800
+Wire Wire Line
+	9850 1800 9850 2100
+Wire Wire Line
+	4500 1500 6000 1500
+Wire Wire Line
+	5000 1900 5000 2200
+Wire Wire Line
+	4500 1900 4500 2650
+Wire Wire Line
+	6950 2700 6750 2700
+Wire Wire Line
+	6750 2700 6750 3400
+Wire Wire Line
+	6750 3400 7750 3400
+Wire Wire Line
+	7750 3400 7750 2600
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 609017FD
+P 7700 950
+F 0 "J2" H 7673 832 50  0000 R CNN
+F 1 "SPI" H 7673 923 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7700 950 50  0001 C CNN
+F 3 "~" H 7700 950 50  0001 C CNN
+F 4 "~" H 7700 950 50  0001 C CNN "Impedence "
+F 5 "~" H 7700 950 50  0001 C CNN "MPN"
+F 6 "~" H 7700 950 50  0001 C CNN "Manufacturer"
+F 7 "~" H 7700 950 50  0001 C CNN "Power"
+F 8 "~" H 7700 950 50  0001 C CNN "Rating"
+F 9 "~" H 7700 950 50  0001 C CNN "Tolerance"
+	1    7700 950 
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8700 1050 8700 1100
+Wire Wire Line
+	8800 950  8800 1100
+Wire Wire Line
+	8900 850  8900 1100
+Wire Wire Line
+	9000 750  9000 1100
+$Comp
+L Analog_ADC:MCP3208 U3
+U 1 1 6091E0EF
+P 8800 1700
+F 0 "U3" V 9350 1100 50  0000 R CNN
+F 1 "MCP3208" V 9250 1100 50  0000 R CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 8900 1800 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf" H 8900 1800 50  0001 C CNN
+F 4 "~" H 8800 1700 50  0001 C CNN "Impedence "
+F 5 "~" H 8800 1700 50  0001 C CNN "Power"
+F 6 "~" H 8800 1700 50  0001 C CNN "Rating"
+F 7 "~" H 8800 1700 50  0001 C CNN "Tolerance"
+F 8 "Microchip Technology" H 8800 1700 50  0001 C CNN "Manufacturer"
+F 9 "MCP3208T-BI/SL" H 8800 1700 50  0001 C CNN "MPN"
+	1    8800 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Reference_Voltage:MCP1541-TT U1
+U 1 1 608DFA90
+P 5000 2500
+F 0 "U1" H 5100 2900 50  0000 L CNN
+F 1 "MCP1541" H 5100 2800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5025 2250 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf" H 5000 2500 50  0001 C CIN
+F 4 "~" H 5000 2500 50  0001 C CNN "Impedence "
+F 5 "~" H 5000 2500 50  0001 C CNN "Power"
+F 6 "~" H 5000 2500 50  0001 C CNN "Rating"
+F 7 "~" H 5000 2500 50  0001 C CNN "Tolerance"
+F 8 "MCP1541T-I/TT" H 5000 2500 50  0001 C CNN "MPN"
+F 9 "Microchip Technology" H 5000 2500 50  0001 C CNN "Manufacturer"
+	1    5000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60936E9D
+P 7800 4450
+F 0 "R2" H 7870 4571 50  0000 L CNN
+F 1 "1kΩ" H 7870 4480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7730 4450 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28758/tnpw_e3.pdf" H 7800 4450 50  0001 C CNN
+F 4 "±0.1%" H 7870 4397 39  0000 L CNN "Tolerance"
+F 5 "0.2W" H 7870 4322 39  0000 L CNN "Power"
+F 6 "~" H 7800 4450 50  0001 C CNN "Impedence "
+F 7 "~" H 7800 4450 50  0001 C CNN "Rating"
+F 8 "TNPW08051K00BEEA" H 7800 4450 50  0001 C CNN "MPN"
+F 9 "Vishay Dale" H 7800 4450 50  0001 C CNN "Manufacturer"
+	1    7800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60937A03
+P 7800 4950
+F 0 "R3" H 7870 5071 50  0000 L CNN
+F 1 "1kΩ" H 7870 4980 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7730 4950 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28758/tnpw_e3.pdf" H 7800 4950 50  0001 C CNN
+F 4 "±0.1%" H 7870 4897 39  0000 L CNN "Tolerance"
+F 5 "0.2W" H 7870 4822 39  0000 L CNN "Power"
+F 6 "~" H 7800 4950 50  0001 C CNN "Impedence "
+F 7 "~" H 7800 4950 50  0001 C CNN "Rating"
+F 8 "TNPW08051K00BEEA" H 7800 4950 50  0001 C CNN "MPN"
+F 9 "Vishay Dale" H 7800 4950 50  0001 C CNN "Manufacturer"
+	1    7800 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 609387EE
+P 7800 5450
+F 0 "#PWR08" H 7800 5200 50  0001 C CNN
+F 1 "GND" H 7805 5277 50  0000 C CNN
+F 2 "" H 7800 5450 50  0001 C CNN
+F 3 "" H 7800 5450 50  0001 C CNN
+	1    7800 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 4150 7800 4300
+Wire Wire Line
+	7800 5100 7800 5450
+$Comp
+L power:GND #PWR010
+U 1 1 60945071
+P 9850 3150
+F 0 "#PWR010" H 9850 2900 50  0001 C CNN
+F 1 "GND" H 9855 2977 50  0000 C CNN
+F 2 "" H 9850 3150 50  0001 C CNN
+F 3 "" H 9850 3150 50  0001 C CNN
+	1    9850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 60951522
+P 10100 3850
+F 0 "J4" H 10072 3782 50  0000 R CNN
+F 1 "CH3" H 10072 3873 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10100 3850 50  0001 C CNN
+F 3 "~" H 10100 3850 50  0001 C CNN
+F 4 "~" H 10100 3850 50  0001 C CNN "Impedence "
+F 5 "~" H 10100 3850 50  0001 C CNN "MPN"
+F 6 "~" H 10100 3850 50  0001 C CNN "Manufacturer"
+F 7 "~" H 10100 3850 50  0001 C CNN "Power"
+F 8 "~" H 10100 3850 50  0001 C CNN "Rating"
+F 9 "~" H 10100 3850 50  0001 C CNN "Tolerance"
+	1    10100 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 6095187F
+P 10100 4850
+F 0 "J5" H 10072 4782 50  0000 R CNN
+F 1 "CH2" H 10072 4873 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10100 4850 50  0001 C CNN
+F 3 "~" H 10100 4850 50  0001 C CNN
+F 4 "~" H 10100 4850 50  0001 C CNN "Impedence "
+F 5 "~" H 10100 4850 50  0001 C CNN "MPN"
+F 6 "~" H 10100 4850 50  0001 C CNN "Manufacturer"
+F 7 "~" H 10100 4850 50  0001 C CNN "Power"
+F 8 "~" H 10100 4850 50  0001 C CNN "Rating"
+F 9 "~" H 10100 4850 50  0001 C CNN "Tolerance"
+	1    10100 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J6
+U 1 1 60952178
+P 10100 5800
+F 0 "J6" H 10072 5732 50  0000 R CNN
+F 1 "CH1" H 10072 5823 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10100 5800 50  0001 C CNN
+F 3 "~" H 10100 5800 50  0001 C CNN
+F 4 "~" H 10100 5800 50  0001 C CNN "Impedence "
+F 5 "~" H 10100 5800 50  0001 C CNN "MPN"
+F 6 "~" H 10100 5800 50  0001 C CNN "Manufacturer"
+F 7 "~" H 10100 5800 50  0001 C CNN "Power"
+F 8 "~" H 10100 5800 50  0001 C CNN "Rating"
+F 9 "~" H 10100 5800 50  0001 C CNN "Tolerance"
+	1    10100 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 60962B2B
+P 9850 4150
+F 0 "#PWR011" H 9850 3900 50  0001 C CNN
+F 1 "GND" H 9855 3977 50  0000 C CNN
+F 2 "" H 9850 4150 50  0001 C CNN
+F 3 "" H 9850 4150 50  0001 C CNN
+	1    9850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 609631D2
+P 9850 5150
+F 0 "#PWR012" H 9850 4900 50  0001 C CNN
+F 1 "GND" H 9855 4977 50  0000 C CNN
+F 2 "" H 9850 5150 50  0001 C CNN
+F 3 "" H 9850 5150 50  0001 C CNN
+	1    9850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 609657BE
+P 9850 6100
+F 0 "#PWR013" H 9850 5850 50  0001 C CNN
+F 1 "GND" H 9855 5927 50  0000 C CNN
+F 2 "" H 9850 6100 50  0001 C CNN
+F 3 "" H 9850 6100 50  0001 C CNN
+	1    9850 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 3950 9850 3950
+Wire Wire Line
+	9850 3950 9850 4150
+Wire Wire Line
+	9900 4950 9850 4950
+Wire Wire Line
+	9850 4950 9850 5150
+Wire Wire Line
+	9900 5900 9850 5900
+Wire Wire Line
+	9850 5900 9850 6100
+Text GLabel 9800 4850 0    50   Input ~ 0
+V.IN
+Text GLabel 9800 5800 0    50   Input ~ 0
+V.IN
+Wire Wire Line
+	9800 3850 9900 3850
+Wire Wire Line
+	9800 4850 9900 4850
+Wire Wire Line
+	9800 5800 9900 5800
+Wire Wire Line
+	7800 4600 7800 4700
+Connection ~ 7800 4700
+Wire Wire Line
+	7800 4700 7800 4800
+NoConn ~ 9000 2300
+NoConn ~ 9100 2300
+NoConn ~ 9200 2300
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 60912745
+P 2200 1500
+F 0 "J1" H 2100 1500 50  0000 C CNN
+F 1 "5V" H 2100 1400 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2200 1500 50  0001 C CNN
+F 3 "~" H 2200 1500 50  0001 C CNN
+F 4 "~" H 2200 1500 50  0001 C CNN "Impedence "
+F 5 "~" H 2200 1500 50  0001 C CNN "MPN"
+F 6 "~" H 2200 1500 50  0001 C CNN "Manufacturer"
+F 7 "~" H 2200 1500 50  0001 C CNN "Power"
+F 8 "~" H 2200 1500 50  0001 C CNN "Rating"
+F 9 "~" H 2200 1500 50  0001 C CNN "Tolerance"
+	1    2200 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1600 2500 1600
+Wire Wire Line
+	2500 1600 2500 3600
+$Comp
+L Device:R R5
+U 1 1 60B4CAFC
+P 9350 3750
+F 0 "R5" V 8993 3750 50  0000 C CNN
+F 1 "68kΩ" V 9084 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9280 3750 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 9350 3750 50  0001 C CNN
+F 4 "±1%" V 9167 3750 39  0000 C CNN "Tolerance"
+F 5 "0.4W" V 9242 3750 39  0000 C CNN "Power"
+F 6 "RCS080568K0FKEA" H 9350 3750 50  0001 C CNN "MPN"
+F 7 "Vishay Dale" H 9350 3750 50  0001 C CNN "Manufacturer"
+F 8 "~" H 9350 3750 50  0001 C CNN "Impedence "
+F 9 "~" H 9350 3750 50  0001 C CNN "Rating"
+	1    9350 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 60B4D32D
+P 9350 4750
+F 0 "R6" V 8993 4750 50  0000 C CNN
+F 1 "68kΩ" V 9084 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9280 4750 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 9350 4750 50  0001 C CNN
+F 4 "±1%" V 9167 4750 39  0000 C CNN "Tolerance"
+F 5 "0.4W" V 9242 4750 39  0000 C CNN "Power"
+F 6 "RCS080568K0FKEA" H 9350 4750 50  0001 C CNN "MPN"
+F 7 "Vishay Dale" H 9350 4750 50  0001 C CNN "Manufacturer"
+F 8 "~" H 9350 4750 50  0001 C CNN "Impedence "
+F 9 "~" H 9350 4750 50  0001 C CNN "Rating"
+	1    9350 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 60B4DB0E
+P 9350 5700
+F 0 "R7" V 8993 5700 50  0000 C CNN
+F 1 "68kΩ" V 9084 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9280 5700 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 9350 5700 50  0001 C CNN
+F 4 "±1%" V 9167 5700 39  0000 C CNN "Tolerance"
+F 5 "0.4W" V 9242 5700 39  0000 C CNN "Power"
+F 6 "RCS080568K0FKEA" H 9350 5700 50  0001 C CNN "MPN"
+F 7 "Vishay Dale" H 9350 5700 50  0001 C CNN "Manufacturer"
+F 8 "~" H 9350 5700 50  0001 C CNN "Impedence "
+F 9 "~" H 9350 5700 50  0001 C CNN "Rating"
+	1    9350 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 60B51A07
+P 8950 3950
+F 0 "C10" H 8835 3867 50  0000 R CNN
+F 1 "47µF" H 8835 3958 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8988 3800 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 8950 3950 50  0001 C CNN
+F 4 "10V" H 8835 4041 39  0000 R CNN "Rating"
+F 5 "C1210C476K8RAC7800" H 8950 3950 50  0001 C CNN "MPN"
+F 6 "KEMET" H 8950 3950 50  0001 C CNN "Manufacturer"
+F 7 "±10%" H 8950 3950 50  0001 C CNN "Tolerance"
+F 8 "~" H 8950 3950 50  0001 C CNN "Impedence "
+F 9 "~" H 8950 3950 50  0001 C CNN "Power"
+	1    8950 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 60B52730
+P 8950 5900
+F 0 "C12" H 8835 5817 50  0000 R CNN
+F 1 "47µF" H 8835 5908 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8988 5750 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 8950 5900 50  0001 C CNN
+F 4 "10V" H 8835 5991 39  0000 R CNN "Rating"
+F 5 "C1210C476K8RAC7800" H 8950 5900 50  0001 C CNN "MPN"
+F 6 "KEMET" H 8950 5900 50  0001 C CNN "Manufacturer"
+F 7 "±10%" H 8950 5900 50  0001 C CNN "Tolerance"
+F 8 "~" H 8950 5900 50  0001 C CNN "Impedence "
+F 9 "~" H 8950 5900 50  0001 C CNN "Power"
+	1    8950 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 60A90C24
+P 8950 2950
+F 0 "C9" H 8835 2867 50  0000 R CNN
+F 1 "47µF" H 8835 2958 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8988 2800 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 8950 2950 50  0001 C CNN
+F 4 "10V" H 8835 3041 39  0000 R CNN "Rating"
+F 5 "C1210C476K8RAC7800" H 8950 2950 50  0001 C CNN "MPN"
+F 6 "KEMET" H 8950 2950 50  0001 C CNN "Manufacturer"
+F 7 "±10%" H 8950 2950 50  0001 C CNN "Tolerance"
+F 8 "~" H 8950 2950 50  0001 C CNN "Impedence "
+F 9 "~" H 8950 2950 50  0001 C CNN "Power"
+	1    8950 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9800 2850 9900 2850
+Wire Wire Line
+	9850 2950 9900 2950
+Wire Wire Line
+	9850 3150 9850 2950
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 6093D020
+P 10100 2850
+F 0 "J3" H 10072 2782 50  0000 R CNN
+F 1 "CH4" H 10072 2873 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10100 2850 50  0001 C CNN
+F 3 "~" H 10100 2850 50  0001 C CNN
+F 4 "~" H 10100 2850 50  0001 C CNN "Impedence "
+F 5 "~" H 10100 2850 50  0001 C CNN "MPN"
+F 6 "~" H 10100 2850 50  0001 C CNN "Manufacturer"
+F 7 "~" H 10100 2850 50  0001 C CNN "Power"
+F 8 "~" H 10100 2850 50  0001 C CNN "Rating"
+F 9 "~" H 10100 2850 50  0001 C CNN "Tolerance"
+	1    10100 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 60B68CC4
+P 8950 3150
+F 0 "#PWR02" H 8950 2900 50  0001 C CNN
+F 1 "GND" H 8955 2977 50  0000 C CNN
+F 2 "" H 8950 3150 50  0001 C CNN
+F 3 "" H 8950 3150 50  0001 C CNN
+	1    8950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 60B6B272
+P 8950 4150
+F 0 "#PWR03" H 8950 3900 50  0001 C CNN
+F 1 "GND" H 8955 3977 50  0000 C CNN
+F 2 "" H 8950 4150 50  0001 C CNN
+F 3 "" H 8950 4150 50  0001 C CNN
+	1    8950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 60B72C08
+P 8950 5150
+F 0 "#PWR014" H 8950 4900 50  0001 C CNN
+F 1 "GND" H 8955 4977 50  0000 C CNN
+F 2 "" H 8950 5150 50  0001 C CNN
+F 3 "" H 8950 5150 50  0001 C CNN
+	1    8950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 60B74F29
+P 8950 6100
+F 0 "#PWR015" H 8950 5850 50  0001 C CNN
+F 1 "GND" H 8955 5927 50  0000 C CNN
+F 2 "" H 8950 6100 50  0001 C CNN
+F 3 "" H 8950 6100 50  0001 C CNN
+	1    8950 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 2300 8900 2750
+Wire Wire Line
+	8900 2750 8950 2750
+Wire Wire Line
+	9500 2750 9900 2750
+Wire Wire Line
+	8800 2300 8800 3750
+Wire Wire Line
+	8800 3750 8950 3750
+Wire Wire Line
+	9500 3750 9900 3750
+Wire Wire Line
+	8700 2300 8700 4750
+Wire Wire Line
+	8700 4750 8950 4750
+Wire Wire Line
+	9500 4750 9900 4750
+Wire Wire Line
+	8600 2300 8600 5700
+Wire Wire Line
+	8600 5700 8950 5700
+Wire Wire Line
+	9500 5700 9900 5700
+Wire Wire Line
+	8950 5700 8950 5750
+Wire Wire Line
+	8950 6050 8950 6100
+Wire Wire Line
+	8950 3750 8950 3800
+Wire Wire Line
+	8950 4100 8950 4150
+Wire Wire Line
+	8950 2750 8950 2800
+Wire Wire Line
+	8950 3100 8950 3150
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 60B93BF9
+P 2650 1150
+F 0 "#FLG0101" H 2650 1225 50  0001 C CNN
+F 1 "PWR_FLAG" V 2650 1278 50  0000 L CNN
+F 2 "" H 2650 1150 50  0001 C CNN
+F 3 "~" H 2650 1150 50  0001 C CNN
+	1    2650 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60B94729
+P 5450 4050
+F 0 "#FLG0102" H 5450 4125 50  0001 C CNN
+F 1 "PWR_FLAG" V 5450 4178 50  0000 L CNN
+F 2 "" H 5450 4050 50  0001 C CNN
+F 3 "~" H 5450 4050 50  0001 C CNN
+	1    5450 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 4050 5300 4050
+Wire Wire Line
+	5300 4050 5300 4200
+Wire Wire Line
+	2650 1150 2500 1150
+Connection ~ 2500 1150
+Wire Wire Line
+	2500 1150 2500 1500
+Text GLabel 5800 1300 0    50   Input ~ 0
+V.IN
+Wire Wire Line
+	5800 1300 6000 1300
+Wire Wire Line
+	6000 1300 6000 1500
+Text GLabel 9800 3850 0    50   Input ~ 0
+V.IN
+Text GLabel 9800 2850 0    50   Input ~ 0
+V.IN
+Text GLabel 7650 4150 0    50   Input ~ 0
+V.IN
+Wire Wire Line
+	7650 4150 7800 4150
+$Comp
+L Device:R R4
+U 1 1 60A91DAC
+P 9350 2750
+F 0 "R4" V 8993 2750 50  0000 C CNN
+F 1 "68kΩ" V 9084 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9280 2750 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 9350 2750 50  0001 C CNN
+F 4 "±1%" V 9167 2750 39  0000 C CNN "Tolerance"
+F 5 "0.4W" V 9242 2750 39  0000 C CNN "Power"
+F 6 "RCS080568K0FKEA" H 9350 2750 50  0001 C CNN "MPN"
+F 7 "Vishay Dale" H 9350 2750 50  0001 C CNN "Manufacturer"
+F 8 "~" H 9350 2750 50  0001 C CNN "Impedence "
+F 9 "~" H 9350 2750 50  0001 C CNN "Rating"
+	1    9350 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60919793
+P 1600 6050
+F 0 "H4" H 1700 6096 50  0000 L CNN
+F 1 "M3" H 1700 6005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 1600 6050 50  0001 C CNN
+F 3 "~" H 1600 6050 50  0001 C CNN
+F 4 "~" H 1600 6050 50  0001 C CNN "Impedence "
+F 5 "~" H 1600 6050 50  0001 C CNN "MPN"
+F 6 "~" H 1600 6050 50  0001 C CNN "Manufacturer"
+F 7 "~" H 1600 6050 50  0001 C CNN "Power"
+F 8 "~" H 1600 6050 50  0001 C CNN "Rating"
+F 9 "~" H 1600 6050 50  0001 C CNN "Tolerance"
+	1    1600 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6091947B
+P 2300 6050
+F 0 "H3" H 2400 6096 50  0000 L CNN
+F 1 "M3" H 2400 6005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 2300 6050 50  0001 C CNN
+F 3 "~" H 2300 6050 50  0001 C CNN
+F 4 "~" H 2300 6050 50  0001 C CNN "Impedence "
+F 5 "~" H 2300 6050 50  0001 C CNN "MPN"
+F 6 "~" H 2300 6050 50  0001 C CNN "Manufacturer"
+F 7 "~" H 2300 6050 50  0001 C CNN "Power"
+F 8 "~" H 2300 6050 50  0001 C CNN "Rating"
+F 9 "~" H 2300 6050 50  0001 C CNN "Tolerance"
+	1    2300 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60919211
+P 2300 5700
+F 0 "H2" H 2400 5746 50  0000 L CNN
+F 1 "M3" H 2400 5655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 2300 5700 50  0001 C CNN
+F 3 "~" H 2300 5700 50  0001 C CNN
+F 4 "~" H 2300 5700 50  0001 C CNN "Impedence "
+F 5 "~" H 2300 5700 50  0001 C CNN "MPN"
+F 6 "~" H 2300 5700 50  0001 C CNN "Manufacturer"
+F 7 "~" H 2300 5700 50  0001 C CNN "Power"
+F 8 "~" H 2300 5700 50  0001 C CNN "Rating"
+F 9 "~" H 2300 5700 50  0001 C CNN "Tolerance"
+	1    2300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60918BE5
+P 1600 5700
+F 0 "H1" H 1700 5746 50  0000 L CNN
+F 1 "M3" H 1700 5655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 1600 5700 50  0001 C CNN
+F 3 "~" H 1600 5700 50  0001 C CNN
+F 4 "~" H 1600 5700 50  0001 C CNN "Impedence "
+F 5 "~" H 1600 5700 50  0001 C CNN "MPN"
+F 6 "~" H 1600 5700 50  0001 C CNN "Manufacturer"
+F 7 "~" H 1600 5700 50  0001 C CNN "Power"
+F 8 "~" H 1600 5700 50  0001 C CNN "Rating"
+F 9 "~" H 1600 5700 50  0001 C CNN "Tolerance"
+	1    1600 5700
+	1    0    0    -1  
+$EndComp
+Text Notes 1400 5450 0    79   ~ 0
+Mounting Holes
+Wire Notes Line
+	1300 5250 2700 5250
+Wire Notes Line
+	2700 5250 2700 6300
+Wire Notes Line
+	2700 6300 1300 6300
+Wire Notes Line
+	1300 6300 1300 5250
+Connection ~ 3900 1500
+Wire Wire Line
+	3900 1500 4050 1500
+Connection ~ 3350 1500
+Wire Wire Line
+	3350 1500 3900 1500
+Connection ~ 3350 3600
+Wire Wire Line
+	3350 3600 3900 3600
+Wire Wire Line
+	2850 1500 3350 1500
+Wire Wire Line
+	2850 3600 3350 3600
+Wire Wire Line
+	2500 3600 2850 3600
+Connection ~ 2850 3600
+Wire Wire Line
+	2500 1500 2850 1500
+Connection ~ 2500 1500
+Connection ~ 2850 1500
+Connection ~ 4500 1900
+Wire Wire Line
+	4500 1900 5000 1900
+Wire Wire Line
+	4500 3600 5000 3600
+Wire Wire Line
+	4350 1500 4500 1500
+Connection ~ 4500 1500
+Wire Wire Line
+	3900 3600 4500 3600
+Connection ~ 3900 3600
+Connection ~ 4500 3600
+Wire Wire Line
+	8200 1800 8200 2600
+Text Label 8050 1050 0    50   ~ 0
+SPI.CLK
+Text Label 8150 950  0    50   ~ 0
+SPI.MISO
+Text Label 8250 850  0    50   ~ 0
+SPI.MOSI
+Text Label 8350 750  0    50   ~ 0
+SPI.CS0
+Wire Wire Line
+	6400 2500 6950 2500
+Connection ~ 6400 2500
+Wire Wire Line
+	6400 3600 8200 3600
+Connection ~ 6400 3600
+Wire Wire Line
+	6000 1500 7150 1500
+Connection ~ 6000 1500
+Connection ~ 7150 1500
+Wire Wire Line
+	7150 1500 7800 1500
+Wire Wire Line
+	8200 1800 8300 1800
+Wire Wire Line
+	7900 1050 8700 1050
+Wire Wire Line
+	7900 950  8800 950 
+Wire Wire Line
+	7900 850  8900 850 
+Wire Wire Line
+	7900 750  9000 750 
+Connection ~ 5300 4050
+Connection ~ 7800 1500
+Wire Wire Line
+	7800 1500 8300 1500
+Connection ~ 8950 2750
+Wire Wire Line
+	8950 2750 9200 2750
+Connection ~ 8950 3750
+Wire Wire Line
+	8950 3750 9200 3750
+Connection ~ 8950 4750
+Wire Wire Line
+	8950 4750 9200 4750
+Wire Wire Line
+	8950 4750 8950 4800
+Wire Wire Line
+	8950 5100 8950 5150
+$Comp
+L Device:C C11
+U 1 1 60B52367
+P 8950 4950
+F 0 "C11" H 8835 4867 50  0000 R CNN
+F 1 "47µF" H 8835 4958 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8988 4800 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 8950 4950 50  0001 C CNN
+F 4 "10V" H 8835 5041 39  0000 R CNN "Rating"
+F 5 "C1210C476K8RAC7800" H 8950 4950 50  0001 C CNN "MPN"
+F 6 "KEMET" H 8950 4950 50  0001 C CNN "Manufacturer"
+F 7 "±10%" H 8950 4950 50  0001 C CNN "Tolerance"
+F 8 "~" H 8950 4950 50  0001 C CNN "Impedence "
+F 9 "~" H 8950 4950 50  0001 C CNN "Power"
+	1    8950 4950
+	-1   0    0    1   
+$EndComp
+Connection ~ 8950 5700
+Wire Wire Line
+	8950 5700 9200 5700
+Wire Wire Line
+	8500 2300 8500 4700
+Wire Wire Line
+	7800 4700 8500 4700
+Text Notes 1250 1050 0    79   ~ 16
+12-Bit \nAnalog-Digital \nConverter Board
+Wire Notes Line
+	1150 550  10450 550 
+Wire Notes Line
+	10450 550  10450 6450
+Wire Notes Line
+	10450 6450 1150 6450
+Wire Notes Line
+	1150 6450 1150 550 
+Wire Wire Line
+	7750 2600 8200 2600
+Connection ~ 7750 2600
+Connection ~ 8200 2600
+Wire Wire Line
+	8200 2600 8200 2850
+$EndSCHEMATC
