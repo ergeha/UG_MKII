@@ -1,0 +1,21 @@
+Item,Qty,Reference(s),Value,Datasheet,DCR,Impedence ,MPN,Manufacturer,Power,Rating,SRF,Tolerance
+1,1,C1,10nF,https://content.kemet.com/datasheets/KEM_C1012_X7R_OPENMODE_SMD.pdf,~,~,C0805F103K5RACTU,KEMET,~,50V,~,~
+2,1,C2,10µF,https://content.kemet.com/datasheets/KEM_T2009_T495.pdf,~,135mΩ,T495D106K035ATE125,KEMET,~,35V,~,~
+3,1,C3,10µF,https://content.kemet.com/datasheets/KEM_T2009_T495.pdf,~,135mΩ,T495D106K035ATE125,KEMET,~,35V,~,~
+4,1,C4,10µF,https://content.kemet.com/datasheets/KEM_T2009_T495.pdf,~,135mΩ,T495D106K035ATE125,KEMET,~,35V,~,~
+5,1,C5,10µF,https://content.kemet.com/datasheets/KEM_T2009_T495.pdf,~,135mΩ,T495D106K035ATE125,KEMET,~,35V,~,~
+6,1,C6,0.47µF,https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf,~,~,GMK212BJ474KG-T,Taiyo Yuden,~,35V,~,~
+7,1,C7,0.1µF,https://datasheets.avx.com/X7RDielectric.pdf,~,~,1206DC104KAT2A,AVX Corporation,~,35V,~,~
+8,1,C8,150µF,https://content.kemet.com/datasheets/KEM_T2009_T495.pdf,~,70mΩ,T495X157K010ATE070,KEMET,~,10V,~,~
+9,1,C9,150µF,https://content.kemet.com/datasheets/KEM_T2009_T495.pdf,~,70mΩ,T495X157K010ATE070,KEMET,~,10V,~,~
+10,1,C10,150µF,https://content.kemet.com/datasheets/KEM_T2009_T495.pdf,~,70mΩ,T495X157K010ATE070,KEMET,~,10V,~,~
+11,1,D1,45V 6A,https://www.vishay.com/docs/94945/vs-6tqs-m3.pdf,~,~,VS-6TQ045S-M3,Vishay General Semiconductor - Diodes Division,~,~,~,~
+12,1,H1,MountingHole,~,~,~,~,~,~,~,~,~
+13,1,H2,MountingHole,~,~,~,~,~,~,~,~,~
+14,1,H3,MountingHole,~,~,~,~,~,~,~,~,~
+15,1,H4,MountingHole,~,~,~,~,~,~,~,~,~
+16,1,J1,INPUT,~,~,~,1862275,Phoenix Contact,~,~,~,~
+17,1,J2,OUTPUT,~,~,~,1862275,Phoenix Contact,~,~,~,~
+18,1,L1,15µH 5A,https://www.we-online.de/katalog/datasheet/744770115.pdf,27mΩ,~,744770115,Würth Elektronik,~,~,14.5MHz,~
+19,1,R1,5.6kΩ,https://www.vishay.com/docs/28705/mcx0x0xpro.pdf,~,~,MCS04020C5601FE000,Vishay Beyschlag/Draloric/BC Components,0.1W,~,~,±1%
+20,1,U1,LM2679,https://www.ti.com/lit/ds/symlink/lm2679.pdf?ts=1619264190615,~,~,LM2679S-5.0/NOPB,Texas Instruments,~,~,~,~
