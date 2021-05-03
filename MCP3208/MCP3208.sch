@@ -863,81 +863,81 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 60919793
-P 1600 6050
-F 0 "H4" H 1700 6096 50  0000 L CNN
-F 1 "M3" H 1700 6005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 1600 6050 50  0001 C CNN
-F 3 "~" H 1600 6050 50  0001 C CNN
-F 4 "~" H 1600 6050 50  0001 C CNN "Impedence "
-F 5 "~" H 1600 6050 50  0001 C CNN "MPN"
-F 6 "~" H 1600 6050 50  0001 C CNN "Manufacturer"
-F 7 "~" H 1600 6050 50  0001 C CNN "Power"
-F 8 "~" H 1600 6050 50  0001 C CNN "Rating"
-F 9 "~" H 1600 6050 50  0001 C CNN "Tolerance"
-	1    1600 6050
+P 1550 6100
+F 0 "H4" H 1650 6146 50  0000 L CNN
+F 1 "M3" H 1650 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 1550 6100 50  0001 C CNN
+F 3 "~" H 1550 6100 50  0001 C CNN
+F 4 "~" H 1550 6100 50  0001 C CNN "Impedence "
+F 5 "~" H 1550 6100 50  0001 C CNN "MPN"
+F 6 "~" H 1550 6100 50  0001 C CNN "Manufacturer"
+F 7 "~" H 1550 6100 50  0001 C CNN "Power"
+F 8 "~" H 1550 6100 50  0001 C CNN "Rating"
+F 9 "~" H 1550 6100 50  0001 C CNN "Tolerance"
+	1    1550 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 6091947B
-P 2300 6050
-F 0 "H3" H 2400 6096 50  0000 L CNN
-F 1 "M3" H 2400 6005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 2300 6050 50  0001 C CNN
-F 3 "~" H 2300 6050 50  0001 C CNN
-F 4 "~" H 2300 6050 50  0001 C CNN "Impedence "
-F 5 "~" H 2300 6050 50  0001 C CNN "MPN"
-F 6 "~" H 2300 6050 50  0001 C CNN "Manufacturer"
-F 7 "~" H 2300 6050 50  0001 C CNN "Power"
-F 8 "~" H 2300 6050 50  0001 C CNN "Rating"
-F 9 "~" H 2300 6050 50  0001 C CNN "Tolerance"
-	1    2300 6050
+P 2250 6100
+F 0 "H3" H 2350 6146 50  0000 L CNN
+F 1 "M3" H 2350 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 2250 6100 50  0001 C CNN
+F 3 "~" H 2250 6100 50  0001 C CNN
+F 4 "~" H 2250 6100 50  0001 C CNN "Impedence "
+F 5 "~" H 2250 6100 50  0001 C CNN "MPN"
+F 6 "~" H 2250 6100 50  0001 C CNN "Manufacturer"
+F 7 "~" H 2250 6100 50  0001 C CNN "Power"
+F 8 "~" H 2250 6100 50  0001 C CNN "Rating"
+F 9 "~" H 2250 6100 50  0001 C CNN "Tolerance"
+	1    2250 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 60919211
-P 2300 5700
-F 0 "H2" H 2400 5746 50  0000 L CNN
-F 1 "M3" H 2400 5655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 2300 5700 50  0001 C CNN
-F 3 "~" H 2300 5700 50  0001 C CNN
-F 4 "~" H 2300 5700 50  0001 C CNN "Impedence "
-F 5 "~" H 2300 5700 50  0001 C CNN "MPN"
-F 6 "~" H 2300 5700 50  0001 C CNN "Manufacturer"
-F 7 "~" H 2300 5700 50  0001 C CNN "Power"
-F 8 "~" H 2300 5700 50  0001 C CNN "Rating"
-F 9 "~" H 2300 5700 50  0001 C CNN "Tolerance"
-	1    2300 5700
+P 2250 5750
+F 0 "H2" H 2350 5796 50  0000 L CNN
+F 1 "M3" H 2350 5705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 2250 5750 50  0001 C CNN
+F 3 "~" H 2250 5750 50  0001 C CNN
+F 4 "~" H 2250 5750 50  0001 C CNN "Impedence "
+F 5 "~" H 2250 5750 50  0001 C CNN "MPN"
+F 6 "~" H 2250 5750 50  0001 C CNN "Manufacturer"
+F 7 "~" H 2250 5750 50  0001 C CNN "Power"
+F 8 "~" H 2250 5750 50  0001 C CNN "Rating"
+F 9 "~" H 2250 5750 50  0001 C CNN "Tolerance"
+	1    2250 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 60918BE5
-P 1600 5700
-F 0 "H1" H 1700 5746 50  0000 L CNN
-F 1 "M3" H 1700 5655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 1600 5700 50  0001 C CNN
-F 3 "~" H 1600 5700 50  0001 C CNN
-F 4 "~" H 1600 5700 50  0001 C CNN "Impedence "
-F 5 "~" H 1600 5700 50  0001 C CNN "MPN"
-F 6 "~" H 1600 5700 50  0001 C CNN "Manufacturer"
-F 7 "~" H 1600 5700 50  0001 C CNN "Power"
-F 8 "~" H 1600 5700 50  0001 C CNN "Rating"
-F 9 "~" H 1600 5700 50  0001 C CNN "Tolerance"
-	1    1600 5700
+P 1550 5750
+F 0 "H1" H 1650 5796 50  0000 L CNN
+F 1 "M3" H 1650 5705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 1550 5750 50  0001 C CNN
+F 3 "~" H 1550 5750 50  0001 C CNN
+F 4 "~" H 1550 5750 50  0001 C CNN "Impedence "
+F 5 "~" H 1550 5750 50  0001 C CNN "MPN"
+F 6 "~" H 1550 5750 50  0001 C CNN "Manufacturer"
+F 7 "~" H 1550 5750 50  0001 C CNN "Power"
+F 8 "~" H 1550 5750 50  0001 C CNN "Rating"
+F 9 "~" H 1550 5750 50  0001 C CNN "Tolerance"
+	1    1550 5750
 	1    0    0    -1  
 $EndComp
-Text Notes 1400 5450 0    79   ~ 0
+Text Notes 1350 5500 0    79   ~ 0
 Mounting Holes
 Wire Notes Line
-	1300 5250 2700 5250
+	1250 5300 2650 5300
 Wire Notes Line
-	2700 5250 2700 6300
+	2650 5300 2650 6350
 Wire Notes Line
-	2700 6300 1300 6300
+	2650 6350 1250 6350
 Wire Notes Line
-	1300 6300 1300 5250
+	1250 6350 1250 5300
 Connection ~ 3900 1500
 Wire Wire Line
 	3900 1500 4050 1500
