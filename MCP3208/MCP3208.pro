@@ -1,4 +1,4 @@
-update=2021 May 03, Monday 12:36:27
+update=2021 May 06, Thursday 00:11:14
 version=1
 last_client=kicad
 [general]
@@ -74,7 +74,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0.09999999999999999
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=Front
 Type=0
@@ -263,4 +263,26 @@ uViaDiameter=0.45
 uViaDrill=0.2
 dPairWidth=0.12
 dPairGap=0.12
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=Power
+Clearance=0.25
+TrackWidth=0.504
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.8
+uViaDrill=0.4
+dPairWidth=0.25
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=Signal
+Clearance=0.25
+TrackWidth=0.4
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.8
+uViaDrill=0.4
+dPairWidth=0.25
+dPairGap=0.25
 dPairViaGap=0.25
