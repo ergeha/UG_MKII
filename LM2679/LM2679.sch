@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Urban Garden MKII – Buck Regulator SMD"
-Date "2021-05-03"
-Rev "0.0.1"
+Date "2021-05-05"
+Rev "0.0.2"
 Comp "u/ergeha"
 Comment1 ""
 Comment2 ""
@@ -38,7 +38,7 @@ U 1 1 609061F1
 P 3600 3750
 F 0 "C1" H 3715 3871 50  0000 L CNN
 F 1 "180µF " H 3715 3780 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_8.3x8.3_Panasonic_M" H 3830 3682 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8.3x8.3_Panasonic_SVPF_E7" H 3830 3682 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/ww/products/capacitors/polymer-capacitors/os-con/models/20SVPF180M" H 3830 3682 50  0001 C CNN
 F 4 "20V" H 3715 3697 39  0000 L CNN "Rating"
 F 5 "25mΩ" H 3715 3622 39  0000 L CNN "Impedence "
@@ -114,7 +114,7 @@ U 1 1 60908593
 P 5900 3350
 F 0 "U1" H 5400 3750 50  0000 C CNN
 F 1 "LM2679SX-5.0/NOPB" H 5400 3650 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-7_TabPin8" H 5900 3450 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-7_TabPin8_HandSoldering" H 5900 3450 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm2679.pdf?ts=1619264190615" H 5900 3450 50  0001 C CNN
 F 4 "LM2679SX-5.0/NOPB" H 5900 3350 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 5900 3350 50  0001 C CNN "Manufacturer"
@@ -133,7 +133,7 @@ U 1 1 60909783
 P 6800 3750
 F 0 "D1" V 6754 3830 50  0000 L CNN
 F 1 "850mV @ 20A" V 6845 3830 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2_TabPin1" H 6800 3750 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2_TabPin1_HandSoldering" H 6800 3750 50  0001 C CNN
 F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/group2/8f/d3/41/ea/82/b2/4b/5a/CD00228904/files/CD00228904.pdf/jcr:content/translations/en.CD00228904.pdf" H 6800 3750 50  0001 C CNN
 F 4 "STPS20M100SG-TR" H 6800 3750 50  0001 C CNN "MPN"
 F 5 "STMicroelectronics" H 6800 3750 50  0001 C CNN "Manufacturer"
@@ -152,7 +152,7 @@ U 1 1 60909C1E
 P 7800 3750
 F 0 "C5" H 7915 3871 50  0000 L CNN
 F 1 "330µF " H 7915 3780 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_10.3x10.3_Panasonic_M" H 8030 3682 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10.3x10.3_Panasonic_SVPF_F12" H 8030 3682 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/ww/products/capacitors/polymer-capacitors/os-con/models/16SVP330M" H 8030 3682 50  0001 C CNN
 F 4 "16V" H 7915 3697 39  0000 L CNN "Rating"
 F 5 "16mΩ" H 7915 3622 39  0000 L CNN "Impedence "
