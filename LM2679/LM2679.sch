@@ -19,12 +19,12 @@ U 1 1 608DE98F
 P 7500 3450
 F 0 "L1" H 7500 3790 50  0000 C CNN
 F 1 "10µH 10A" H 7500 3699 50  0000 C CNN
-F 2 "Inductor_SMD:L_Bourns_SRP1245A" V 7500 3450 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/SRP1265A.pdf" V 7500 3450 50  0001 C CNN
-F 4 "16.5mΩ" H 7500 3616 39  0000 C CNN "DCR"
-F 5 "10MHz" H 7500 3541 39  0000 C CNN "SRF"
-F 6 "SRP1265A-100M" H 7500 3450 50  0001 C CNN "MPN"
-F 7 "Bourns Inc." H 7500 3450 50  0001 C CNN "Manufacturer"
+F 2 "Inductor_SMD:L_Vishay_IHLP-5050_HandSolder" V 7500 3450 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/34123/ihlp-5050fd-01.pdf" V 7500 3450 50  0001 C CNN
+F 4 "17.2mΩ" H 7500 3616 39  0000 C CNN "DCR"
+F 5 "~" H 7500 3541 39  0000 C CNN "SRF"
+F 6 "IHLP5050FDER100M01" H 7500 3450 50  0001 C CNN "MPN"
+F 7 "Vishay Dale" H 7500 3450 50  0001 C CNN "Manufacturer"
 F 8 "~" H 7500 3450 50  0001 C CNN "Impedence "
 F 9 "~" H 7500 3450 50  0001 C CNN "Power"
 F 10 "~" H 7500 3450 50  0001 C CNN "Rating"
@@ -104,7 +104,7 @@ F 7 "Vishay Dale" H 5200 3750 50  0001 C CNN "Manufacturer"
 F 8 "~" H 5200 3750 50  0001 C CNN "DCR"
 F 9 "~" H 5200 3750 50  0001 C CNN "Impedence "
 F 10 "~" H 5200 3750 50  0001 C CNN "Rating"
-F 11 "" H 5200 3750 50  0001 C CNN "SRF"
+F 11 "~" H 5200 3750 50  0001 C CNN "SRF"
 	1    5200 3750
 	1    0    0    -1  
 $EndComp
